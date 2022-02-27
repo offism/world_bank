@@ -1,6 +1,6 @@
 <template>
   <section class="navbar__section">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="#"
           ><img src="./../../public/images/MainPageImgs/frame1.png" alt=""
@@ -30,18 +30,28 @@
             <input
               class="form-control me-2"
               type="search"
-              placeholder="Search"
+              placeholder="Поиск по сайту"
               aria-label="Search"
             />
           </form>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ml-4 mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"
                 ><i class="lnr lnr-smartphone"></i
               ></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#"
+                ><i class="fas fa-solid fa-glasses"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link i" href="#"
+                ><i class="lnr lnr-volume-medium"></i
+              ></a>
+            </li>
+            <li class="nav-item l">
+              <span class="m-0 p-0"> | </span>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -52,19 +62,18 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                Рус
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
+                <li><a class="dropdown-item" href="#">Eng</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a
+                class="nav-link hov btn btn-primary text-white mx-1 px-4"
+                style="background-color: #529dd6; border: none"
+                >Вход в программу</a
+              >
             </li>
           </ul>
         </div>
@@ -83,5 +92,42 @@ export default {
 <style scoped>
 .container {
   max-width: 1000px;
+}
+.nav-link.i i {
+  font-weight: bold;
+}
+.nav-item.l {
+  padding: 5px;
+}
+.navbar {
+  background-color: antiquewhite;
+}
+.navbar-brand img {
+  width: 65%;
+}
+.navbar-brand {
+  margin-right: 0;
+}
+.nav-link,
+.nav-item span {
+  color: #fff;
+}
+
+form {
+  width: 50%;
+}
+
+form > * {
+  color: #fff;
+}
+form input {
+  background: transparent;
+  border: none;
+}
+form input:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+form input:focus-visible {
+  outline: none;
 }
 </style>
