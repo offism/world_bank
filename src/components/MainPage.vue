@@ -124,8 +124,11 @@ export default {
   font-weight: 300;
 }
 .item {
-  border-right: 1px solid #ccc;
-  border-left: 1px solid #ccc;
+  /* border-left: 0.5px solid #ccc; */
+  border-right: 0.5px solid #ccc;
+}
+.item.active:nth-child(3) {
+  border-right: none;
 }
 .home-demo__horizontal {
   position: absolute;

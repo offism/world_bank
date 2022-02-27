@@ -26,11 +26,16 @@
   background-color: transparent !important;
   transform: scale(1.4);
 }
-.owl-item.active {
-  margin-right: 0 !important;
-}
+/* .owl-item.active + .owl-item.active {
+    margin-right: 0 !important;
+} */
 /* ******************************MY CODES END******* */
-
+/* .owl-item.active:nth-child(2n) {
+  margin-right: 0 !important;
+} */
+.owl-item.active:nth-child(3n) .item {
+  border-right: none;
+}
 .owl-carousel,
 .owl-carousel .owl-item {
   -webkit-tap-highlight-color: transparent;
