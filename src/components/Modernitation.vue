@@ -108,10 +108,21 @@ export default {
   justify-content: center;
   border-radius: 50%;
 }
+.modern_img__box::before {
+  position: absolute;
+  content: "";
+  top: -33px;
+  left: 26px;
+  border: 3px solid #ebecfb;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
 .modern_img__box {
-  padding: 30px;
+  position: relative;
+  z-index: 1;
 }
 .modern_img__box img {
-  width: 90%;
+  width: 100%;
 }
 </style>
