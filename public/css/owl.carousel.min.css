@@ -7,23 +7,27 @@
 /*********************** MYSELF CODES ***** */
 
 .owl-prev {
+  border: 1px solid #ccc;
   position: absolute;
-  top: -50px;
-  right: 0px;
+  top: -61px;
+  right: -35px;
   font-size: 40px !important;
   transition: 0.3s ease all;
 }
 .owl-next {
   transition: 0.3s ease all;
   position: absolute;
-  top: -50px;
-  right: -25px;
+  top: -61px;
+  right: -60px;
   font-size: 40px !important;
 }
 .owl-prev:hover,
 .owl-next:hover {
   background-color: transparent !important;
   transform: scale(1.4);
+}
+.owl-item.active {
+  margin-right: 0 !important;
 }
 /* ******************************MY CODES END******* */
 

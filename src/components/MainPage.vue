@@ -14,6 +14,7 @@
       <button class="main-podrobnie__btn btn">Подробнее</button>
     </div>
     <div class="home-demo">
+      <hr class="home-demo__horizontal" />
       <div class="owl-carousel owl-theme">
         <div class="item">
           <p class="slide__date">30 сентября 2022</p>
@@ -23,7 +24,7 @@
           </h4>
           <small class="slide__texture"
             >Мининноваций Узбекистана совместно с Министерством иностранных дел
-            и торговли Венгрии объявили о запуске конкурса стартапов.</small
+            и торговли Венгрии объявил запуске конкурса стартапов.</small
           >
         </div>
         <div class="item">
@@ -34,7 +35,7 @@
           </h4>
           <small class="slide__texture"
             >Мининноваций Узбекистана совместно с Министерством иностранных дел
-            и торговли Венгрии объявили о запуске конкурса стартапов.</small
+            и торговли Венгрии объявил запуске конкурса стартапов.</small
           >
         </div>
         <div class="item">
@@ -45,7 +46,7 @@
           </h4>
           <small class="slide__texture"
             >Мининноваций Узбекистана совместно с Министерством иностранных дел
-            и торговли Венгрии объявили о запуске конкурса стартапов.</small
+            и торговли Венгрии объявил запуске конкурса стартапов.</small
           >
         </div>
         <div class="item">
@@ -56,29 +57,7 @@
           </h4>
           <small class="slide__texture"
             >Мининноваций Узбекистана совместно с Министерством иностранных дел
-            и торговли Венгрии объявили о запуске конкурса стартапов.</small
-          >
-        </div>
-        <div class="item">
-          <p class="slide__date">30 сентября 2022</p>
-          <h4 class="slide__title">
-            Узбекистан и Венгрия запускают конкурс на разработку научных
-            проектов и стартапов
-          </h4>
-          <small class="slide__texture"
-            >Мининноваций Узбекистана совместно с Министерством иностранных дел
-            и торговли Венгрии объявили о запуске конкурса стартапов.</small
-          >
-        </div>
-        <div class="item">
-          <p class="slide__date">30 сентября 2022</p>
-          <h4 class="slide__title">
-            Узбекистан и Венгрия запускают конкурс на разработку научных
-            проектов и стартапов
-          </h4>
-          <small class="slide__texture"
-            >Мининноваций Узбекистана совместно с Министерством иностранных дел
-            и торговли Венгрии объявили о запуске конкурса стартапов.</small
+            и торговли Венгрии объявил запуске конкурса стартапов.</small
           >
         </div>
       </div>
@@ -131,7 +110,11 @@ export default {
 .slide__part + .slide__part {
   margin-left: 45px;
 }
-
+.home-demo {
+  position: relative;
+  margin-top: 40px;
+  width: 95%;
+}
 .home-demo h2 {
   color: #fff;
   text-align: center;
@@ -139,5 +122,15 @@ export default {
   margin: 0;
   font-style: italic;
   font-weight: 300;
+}
+.item {
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+.home-demo__horizontal {
+  position: absolute;
+  top: -16px;
+  height: 1px;
+  width: 100%;
 }
 </style>
