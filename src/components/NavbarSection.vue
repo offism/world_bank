@@ -8,7 +8,7 @@
         <a class="navbar-brand" href="#"
           ><img src="./../../public/images/MainPageImgs/frame2.png" alt=""
         /></a>
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand last" href="#"
           ><img src="./../../public/images/MainPageImgs/frame3.png" alt=""
         /></a>
         <button
@@ -24,10 +24,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <form class="d-flex">
-            <button class="btn" type="submit">
+            <label for="search__input">
               <i class="lnr lnr-magnifier"></i>
-            </button>
+            </label>
             <input
+              id="search__input"
               class="form-control me-2"
               type="search"
               placeholder="Поиск по сайту"
@@ -91,7 +92,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .container {
-  max-width: 1000px;
+  max-width: 1060px;
 }
 .nav-link.i i {
   font-weight: bold;
@@ -114,9 +115,18 @@ export default {
 }
 
 form {
+  align-items: center;
   width: 50%;
 }
-
+.last {
+  margin-right: 6px;
+}
+label {
+  width: 8%;
+}
+label:hover {
+  cursor: pointer;
+}
 form > * {
   color: #fff;
 }
@@ -124,10 +134,19 @@ form input {
   background: transparent;
   border: none;
 }
+::placeholder {
+  color: #fff;
+}
+.navbar-nav {
+  width: 57%;
+}
 form input:focus {
   background-color: rgba(0, 0, 0, 0.2);
 }
 form input:focus-visible {
   outline: none;
+}
+.navbar-nav .nav-item {
+  margin-right: 10px;
 }
 </style>
