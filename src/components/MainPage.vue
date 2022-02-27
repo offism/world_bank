@@ -13,10 +13,101 @@
       >
       <button class="main-podrobnie__btn btn">Подробнее</button>
     </div>
-    <div class="your-class">
-      <div>your content</div>
-      <div>your content</div>
-      <div>your content</div>
+    <div class="main__slider">
+      <div class="slide__part">
+        <p class="slide__date">30 сентября 2022</p>
+        <h4 class="slide__title">
+          Узбекистан и Венгрия запускают конкурс на разработку научных проектов
+          и стартапов
+        </h4>
+        <small class="slide__texture"
+          >Мининноваций Узбекистана совместно с Министерством иностранных дел и
+          торговли Венгрии объявили о запуске конкурса стартапов.</small
+        >
+      </div>
+      <div class="slide__part">
+        <p class="slide__date">30 сентября 2022</p>
+        <h4 class="slide__title">
+          Узбекистан и Венгрия запускают конкурс на разработку научных проектов
+          и стартапов
+        </h4>
+        <small class="slide__texture"
+          >Мининноваций Узбекистана совместно с Министерством иностранных дел и
+          торговли Венгрии объявили о запуске конкурса стартапов.</small
+        >
+      </div>
+      <div class="slide__part">
+        <p class="slide__date">30 сентября 2022</p>
+        <h4 class="slide__title">
+          Узбекистан и Венгрия запускают конкурс на разработку научных проектов
+          и стартапов
+        </h4>
+        <small class="slide__texture"
+          >Мининноваций Узбекистана совместно с Министерством иностранных дел и
+          торговли Венгрии объявили о запуске конкурса стартапов.</small
+        >
+      </div>
+    </div>
+
+    <div class="home-demo">
+      <h3>Demo</h3>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <p class="slide__date">30 сентября 2022</p>
+          <h4 class="slide__title">
+            Узбекистан и Венгрия запускают конкурс на разработку научных
+            проектов и стартапов
+          </h4>
+          <small class="slide__texture"
+            >Мининноваций Узбекистана совместно с Министерством иностранных дел
+            и торговли Венгрии объявили о запуске конкурса стартапов.</small
+          >
+        </div>
+        <div class="item">
+          <p class="slide__date">30 сентября 2022</p>
+          <h4 class="slide__title">
+            Узбекистан и Венгрия запускают конкурс на разработку научных
+            проектов и стартапов
+          </h4>
+          <small class="slide__texture"
+            >Мининноваций Узбекистана совместно с Министерством иностранных дел
+            и торговли Венгрии объявили о запуске конкурса стартапов.</small
+          >
+        </div>
+        <div class="item">
+          <p class="slide__date">30 сентября 2022</p>
+          <h4 class="slide__title">
+            Узбекистан и Венгрия запускают конкурс на разработку научных
+            проектов и стартапов
+          </h4>
+          <small class="slide__texture"
+            >Мининноваций Узбекистана совместно с Министерством иностранных дел
+            и торговли Венгрии объявили о запуске конкурса стартапов.</small
+          >
+        </div>
+        <div class="item">
+          <p class="slide__date">30 сентября 2022</p>
+          <h4 class="slide__title">
+            Узбекистан и Венгрия запускают конкурс на разработку научных
+            проектов и стартапов
+          </h4>
+          <small class="slide__texture"
+            >Мининноваций Узбекистана совместно с Министерством иностранных дел
+            и торговли Венгрии объявили о запуске конкурса стартапов.</small
+          >
+        </div>
+        <div class="item">
+          <p class="slide__date">30 сентября 2022</p>
+          <h4 class="slide__title">
+            Узбекистан и Венгрия запускают конкурс на разработку научных
+            проектов и стартапов
+          </h4>
+          <small class="slide__texture"
+            >Мининноваций Узбекистана совместно с Министерством иностранных дел
+            и торговли Венгрии объявили о запуске конкурса стартапов.</small
+          >
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -53,5 +144,26 @@ export default {
   display: inline-block;
   background-color: #529dd6;
   color: #fff;
+}
+.main__slider {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+.slide__part {
+  width: 32%;
+  height: 30%;
+}
+.slide__part + .slide__part {
+  margin-left: 45px;
+}
+
+.home-demo h2 {
+  color: #fff;
+  text-align: center;
+  padding: 5rem 0;
+  margin: 0;
+  font-style: italic;
+  font-weight: 300;
 }
 </style>
