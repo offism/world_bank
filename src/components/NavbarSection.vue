@@ -91,6 +91,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.navbar__section {
+  position: absolute;
+  width: 100%;
+}
 .container {
   max-width: 1060px;
 }
@@ -101,7 +105,7 @@ export default {
   padding: 5px;
 }
 .navbar {
-  background-color: antiquewhite;
+  background-color: transparent;
 }
 .navbar-brand img {
   width: 65%;
@@ -141,7 +145,7 @@ form input {
   width: 57%;
 }
 form input:focus {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(256, 256, 256, 0.2);
 }
 form input:focus-visible {
   outline: none;
