@@ -29,13 +29,18 @@
 /* .owl-item.active + .owl-item.active {
     margin-right: 0 !important;
 } */
-/* ******************************MY CODES END******* */
 /* .owl-item.active:nth-child(2n) {
-  margin-right: 0 !important;
+    margin-right: 0 !important;
 } */
 .owl-item.active:nth-child(3n) .item {
   border-right: none;
 }
+.owl-item.active .item {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+/* ******************************MY CODES END******* */
+
 .owl-carousel,
 .owl-carousel .owl-item {
   -webkit-tap-highlight-color: transparent;

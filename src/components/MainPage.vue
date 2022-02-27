@@ -125,15 +125,14 @@ export default {
 }
 .item {
   /* border-left: 0.5px solid #ccc; */
-  border-right: 0.5px solid #ccc;
+  border-right: 1px solid rgb(73, 72, 72);
 }
-.item.active:nth-child(3) {
-  border-right: none;
-}
+
 .home-demo__horizontal {
   position: absolute;
+
   top: -16px;
-  height: 1px;
+  height: 2px;
   width: 100%;
 }
 </style>
