@@ -5,7 +5,9 @@
         <div class="row py-4">
           <div class="modernitation__pacet col-4">
             <div class="modernitation_pacet__img">
-              <img src="./../../public/images/Pacets/pacet_img3.png" alt="" />
+              <div class="modernitation_pacet_box__img">
+                <img src="./../../public/images/Pacets/pacet_img3.png" alt="" />
+              </div>
             </div>
             <h4 class="modernitation_pacet__title">Состав ГРП</h4>
             <p class="modernitation_pacet__text">
@@ -15,7 +17,9 @@
           </div>
           <div class="modernitation__pacet col-4">
             <div class="modernitation_pacet__img">
-              <img src="./../../public/images/Pacets/pacet_img2.png" alt="" />
+              <div class="modernitation_pacet_box__img">
+                <img src="./../../public/images/Pacets/pacet_img2.png" alt="" />
+              </div>
             </div>
             <h4 class="modernitation_pacet__title">
               Международном экспертном совете
@@ -26,7 +30,9 @@
           </div>
           <div class="modernitation__pacet col-4">
             <div class="modernitation_pacet__img">
-              <img src="./../../public/images/Pacets/pacet_img.png" alt="" />
+              <div class="modernitation_pacet_box__img">
+                <img src="./../../public/images/Pacets/pacet_img.png" alt="" />
+              </div>
             </div>
             <h4 class="modernitation_pacet__title">Предложения и жалобы</h4>
             <p class="modernitation_pacet__text">
@@ -37,7 +43,7 @@
         </div>
       </div>
       <div class="modernitation__body">
-        <div class="row">
+        <div class="row align-items-center justify-content-center">
           <div class="col-6">
             <h3 class="modernitation__title">
               МОДЕРНИЗАЦИЯ НАЦИОНАЛЬНОЙ ИННОВАЦИОННОЙ СИСТЕМЫ УЗБЕКИСТАНА
@@ -51,7 +57,9 @@
             </p>
             <button class="main-podrobnie__btn btn">Подробнее</button>
           </div>
-          <div class="col-6"></div>
+          <div class="modern_img__box col-6">
+            <img src="./../../public/images/Pacets/modern_place.png" alt="" />
+          </div>
         </div>
       </div>
     </div>
@@ -66,6 +74,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.modernitation__pacet {
+  padding: 0 30px;
+}
 .main-podrobnie__btn {
   width: 20%;
   margin: 30px 0;
@@ -74,9 +85,33 @@ export default {
   color: #fff;
 }
 .modernitation_pacet__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
   background-color: #529dd6;
+  border-radius: 50%;
+  margin-bottom: 15px;
 }
 .modernitation_pacet__img img {
   background: aliceblue;
+  height: 60%;
+  width: 60%;
+}
+.modernitation_pacet_box__img {
+  background-color: aliceblue;
+  width: 100%;
+  height: 102%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.modern_img__box {
+  padding: 30px;
+}
+.modern_img__box img {
+  width: 90%;
 }
 </style>
