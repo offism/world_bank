@@ -151,7 +151,9 @@
             >
           </div>
         </div>
-        <div class="col-6 news__devices_box"></div>
+        <div class="col-6 news__devices_box">
+          <img src="./../../public/images/News/devices.png" alt="" />
+        </div>
       </div>
     </div>
   </section>
@@ -166,7 +168,7 @@ export default {
 <style scoped>
 .news__section {
   min-height: 40vh;
-  padding: 100px 0;
+  padding: 100px 0 30px;
 }
 .news__head {
   display: flex;
@@ -218,7 +220,7 @@ export default {
   flex-direction: column;
 }
 .news__pacet_status__text {
-  font-size: 20px;
+  font-size: 17px;
 }
 .news__pacet_status__date_box > * {
   width: 50%;

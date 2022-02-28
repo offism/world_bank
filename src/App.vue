@@ -4,6 +4,7 @@
     <MainPage />
     <Modernitation />
     <News />
+    <Questions />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import NavbarSection from "./components/NavbarSection.vue";
 import MainPage from "./components/MainPage.vue";
 import News from "./components/News.vue";
 import Modernitation from "./components/Modernitation.vue";
+import Questions from "./components/Questions.vue";
 
 export default {
   name: "App",
@@ -20,6 +22,7 @@ export default {
     NavbarSection,
     Modernitation,
     News,
+    Questions,
   },
 };
 </script>
