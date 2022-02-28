@@ -32,7 +32,7 @@
         </div>
         <div class="col-3 news__pacet">
           <img
-            src="./../../public/images/News/img1.png"
+            src="./../../public/images/News/img2.png"
             alt=""
             class="news__pacet__img"
           />
@@ -45,18 +45,18 @@
             ></small>
           </div>
           <h4 class="news__pacet__title">
-            Флаг Узбекистана запустили в стратосферу
+            В администрации Чусткого района назначен замхокима...
           </h4>
           <p class="news__pacet__text">
-            Молодые ученые запустили аэростат с флагом Узбекистана в
-            стратосферу. Видео запуска опубликовало Министерство инноваций в
-            своем...
+            В Чустском районе Наманганской области заместителем хокима по
+            инновационному развитию стал Каримходжаев Отабек Тухтасинович. Об
+            этом сообщает...
           </p>
           <small class="news__pacet__hashtag">#инновации</small>
         </div>
         <div class="col-3 news__pacet">
           <img
-            src="./../../public/images/News/img1.png"
+            src="./../../public/images/News/img.png"
             alt=""
             class="news__pacet__img"
           />
@@ -69,16 +69,30 @@
             ></small>
           </div>
           <h4 class="news__pacet__title">
-            Флаг Узбекистана запустили в стратосферу
+            В Узбекистане запустят масштабный медиапроект для...
           </h4>
           <p class="news__pacet__text">
-            Молодые ученые запустили аэростат с флагом Узбекистана в
-            стратосферу. Видео запуска опубликовало Министерство инноваций в
-            своем...
+            В Узбекистане запустят медиапроект FURSAT по созданию молодежных
+            промышленных и предпринимательских зон (МППЗ) для привлечения
+            молодых...
           </p>
           <small class="news__pacet__hashtag">#инновации</small>
         </div>
-        <div class="col-3 news__pacet"></div>
+        <div class="col-3 news__pacet">
+          <div class="row news__pacet__statuses">
+            <div class="news__pacet__status">
+              <h4 class="news__pacet_status__text">
+                Bank of Baroda снизил ставки по жилищным кредитам до 6,5%
+              </h4>
+              <div class="row news__pacet_status__date_box">
+                <small class="news__pacet_status__date">8 сентября 2021</small>
+                <small class="news__pacet_status__hashtag"
+                  >#состоянии проекта</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -140,5 +154,8 @@ export default {
   padding-right: 0;
   padding-left: 0;
   padding-top: 1px;
+}
+.news__pacet__statuses {
+  flex-direction: column;
 }
 </style>
