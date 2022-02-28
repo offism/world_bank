@@ -224,6 +224,7 @@ export default {
 }
 .news__pacet_status__date_box > * {
   width: 50%;
+  color: gray;
 }
 .news__pacet__status > hr {
   margin: 7px 0;

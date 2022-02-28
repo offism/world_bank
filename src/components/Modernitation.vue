@@ -77,6 +77,9 @@ export default {
 .modernitation__pacet {
   padding: 0 30px;
 }
+.modernitation__header {
+  margin: 35px 0;
+}
 .main-podrobnie__btn {
   width: 20%;
   margin: 30px 0;

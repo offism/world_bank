@@ -65,8 +65,8 @@
               >
                 Рус
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Eng</a></li>
+              <ul class="dropdown-menu mr-4" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item mr-4" href="#">Eng</a></li>
               </ul>
             </li>
             <li class="nav-item">
