@@ -81,9 +81,45 @@
         <div class="col-3 news__pacet">
           <div class="row news__pacet__statuses">
             <div class="news__pacet__status">
-              <h4 class="news__pacet_status__text">
+              <h5 class="news__pacet_status__text">
                 Bank of Baroda снизил ставки по жилищным кредитам до 6,5%
-              </h4>
+              </h5>
+              <div class="row news__pacet_status__date_box">
+                <small class="news__pacet_status__date">8 сентября 2021</small>
+                <small class="news__pacet_status__hashtag"
+                  >#состоянии проекта</small
+                >
+              </div>
+              <hr />
+            </div>
+            <div class="news__pacet__status">
+              <h5 class="news__pacet_status__text">
+                Один из столичных районов преобразуют в инновационную...
+              </h5>
+              <div class="row news__pacet_status__date_box">
+                <small class="news__pacet_status__date">8 сентября 2021</small>
+                <small class="news__pacet_status__hashtag"
+                  >#состоянии проекта</small
+                >
+              </div>
+              <hr />
+            </div>
+            <div class="news__pacet__status">
+              <h5 class="news__pacet_status__text">
+                Мининноваций реализует 25 инвестпроектов на сумму...
+              </h5>
+              <div class="row news__pacet_status__date_box">
+                <small class="news__pacet_status__date">8 сентября 2021</small>
+                <small class="news__pacet_status__hashtag"
+                  >#состоянии проекта</small
+                >
+              </div>
+              <hr />
+            </div>
+            <div class="news__pacet__status">
+              <h5 class="news__pacet_status__text">
+                В Нукусе состоялась межотраслевая промышленная...
+              </h5>
               <div class="row news__pacet_status__date_box">
                 <small class="news__pacet_status__date">8 сентября 2021</small>
                 <small class="news__pacet_status__hashtag"
@@ -93,6 +129,29 @@
             </div>
           </div>
         </div>
+      </div>
+      <!-- DEVICES SECTION -->
+      <div class="row news__devices_boxes">
+        <div class="col-6 news__devices_box">
+          <h4 class="news_devices_title my-4">
+            Проект состоит из трех основных компонентов
+          </h4>
+          <p class="news_devices_text">
+            Рамках Компонента 1 и Компонента 2 будут разработаны, в соответствии
+            с международными стандартами, и реализованы 5 грантовых программ.
+            Кроме того, в проекте есть Компонент 3 для комплексной технической
+            помощи для всех секторов (правительство, университеты и бизнес)
+            посредством консультирования, наращивания потенциала.
+          </p>
+          <div class="row news__devices_btn_box my-4">
+            <a href="#" class="btn btn-outline-primary news_devices__btn mr-2"
+              >Подробнее</a
+            ><a href="#" class="btn btn-primary news_devices__btn"
+              >Вход в программу</a
+            >
+          </div>
+        </div>
+        <div class="col-6 news__devices_box"></div>
       </div>
     </div>
   </section>
@@ -157,5 +216,31 @@ export default {
 }
 .news__pacet__statuses {
   flex-direction: column;
+}
+.news__pacet_status__text {
+  font-size: 20px;
+}
+.news__pacet_status__date_box > * {
+  width: 50%;
+}
+.news__pacet__status > hr {
+  margin: 7px 0;
+}
+.news__devices_boxes {
+  margin: 100px 0;
+}
+.news_devices_title {
+  font-weight: 700;
+}
+.news_devices_text {
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+.news__devices_btn_box {
+  justify-content: start;
+}
+.news__devices_btn_box > * {
+  width: 40%;
+  margin-right: 10px;
 }
 </style>
