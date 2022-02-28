@@ -6,6 +6,7 @@
     <News />
     <Questions />
     <UsageSlider />
+    <Footer />
   </div>
 </template>
 
@@ -14,8 +15,9 @@ import NavbarSection from "./components/NavbarSection.vue";
 import MainPage from "./components/MainPage.vue";
 import News from "./components/News.vue";
 import Modernitation from "./components/Modernitation.vue";
-import UsageSlider from "./components/UsageSlider.vue";
 import Questions from "./components/Questions.vue";
+import UsageSlider from "./components/UsageSlider.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -25,6 +27,7 @@ export default {
     Modernitation,
     News,
     Questions,
+    Footer,
     UsageSlider,
   },
 };
