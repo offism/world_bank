@@ -5,6 +5,7 @@
     <Modernitation />
     <News />
     <Questions />
+    <UsageSlider />
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import NavbarSection from "./components/NavbarSection.vue";
 import MainPage from "./components/MainPage.vue";
 import News from "./components/News.vue";
 import Modernitation from "./components/Modernitation.vue";
+import UsageSlider from "./components/UsageSlider.vue";
 import Questions from "./components/Questions.vue";
 
 export default {
@@ -23,6 +25,7 @@ export default {
     Modernitation,
     News,
     Questions,
+    UsageSlider,
   },
 };
 </script>
