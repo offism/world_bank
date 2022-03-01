@@ -34,8 +34,11 @@
 .nav-item span {
   color: #fff;
 }
+.nav-link:hover {
+  color: #a2a3af;
+}
 
-form {
+.collapse form {
   align-items: center;
   width: 50%;
 }
@@ -45,16 +48,16 @@ form {
 .last {
   margin-right: 6px;
 }
-label {
+.collapse form label {
   width: 8%;
 }
-label:hover {
+.collapse form label:hover {
   cursor: pointer;
 }
-form > * {
+.collapse form > * {
   color: #fff;
 }
-form input {
+.collapse form input {
   background: transparent;
   border: none;
 }
@@ -64,16 +67,23 @@ form input {
 .navbar-nav {
   width: 57%;
 }
-form input:focus {
+.collapse form input:focus {
   background-color: rgba(256, 256, 256, 0.2);
 }
-form input:focus-visible {
+.collapse form input:focus-visible {
   outline: none;
 }
 .navbar-nav .nav-item {
   margin-right: 10px;
 }
-
+.vxod_btn {
+  background-color: #529dd6;
+  border: none;
+}
+.vxod_btn:hover {
+  color: #fff;
+  background-color: #2282cc;
+}
 /* Main Page Section  */
 .main_banner {
   min-height: 96vh;
@@ -104,6 +114,10 @@ form input:focus-visible {
   display: inline-block;
   background-color: #529dd6;
   color: #fff;
+}
+.text__part button:hover {
+  color: #fff;
+  background-color: #2282cc;
 }
 .main__slider {
   display: flex;

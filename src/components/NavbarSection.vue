@@ -72,8 +72,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link hov btn btn-primary text-white mx-1 px-4"
-                  style="background-color: #529dd6; border: none"
+                  class="vxod_btn nav-link hov btn btn-primary text-white mx-1 px-4"
                   >Вход в программу</a
                 >
               </li>
