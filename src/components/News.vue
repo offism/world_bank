@@ -12,7 +12,7 @@
             <div class="row">
               <div class="news__row_with__height">
                 <small class="news__pacet__date">8 сентября 2021, 15:20</small>
-                <p class="news_pacet__mini__line">&nbsp;|</p>
+                <p>&nbsp;|</p>
                 <span>10</span>
                 <small class="news__pacet__views"
                   ><i class="lnr lnr-eye"></i
@@ -34,7 +34,7 @@
             <div class="row mt-1">
               <div class="news__row_with__height">
                 <small class="news__pacet__date">8 сентября 2021, 15:20</small>
-                <p class="news_pacet__mini__line">&nbsp;|</p>
+                <p>&nbsp;|</p>
                 <span>10</span>
                 <small class="news__pacet__views"
                   ><i class="lnr lnr-eye"></i
@@ -56,7 +56,7 @@
             <div class="row mt-1">
               <div class="news__row_with__height">
                 <small class="news__pacet__date">8 сентября 2021, 15:20</small>
-                <p class="news_pacet__mini__line">&nbsp;|</p>
+                <p>&nbsp;|</p>
                 <span>10</span>
                 <small class="news__pacet__views"
                   ><i class="lnr lnr-eye"></i
@@ -115,28 +115,26 @@
         </div>
       </div>
       <!-- DEVICES SECTION -->
-      <div class="row mt-5">
-        <div class="col-6 news__devices_box">
-          <h4 class="news_devices_title my-4">
-            Проект состоит из трех основных компонентов
-          </h4>
-          <p class="news_devices_text">
-            Рамках Компонента 1 и Компонента 2 будут разработаны, в соответствии
-            с международными стандартами, и реализованы 5 грантовых программ.
-            Кроме того, в проекте есть Компонент 3 для комплексной технической
-            помощи для всех секторов (правительство, университеты и бизнес)
-            посредством консультирования, наращивания потенциала.
-          </p>
-          <div class="row news__devices_btn_box my-4">
-            <a href="#" class="btn btn-outline-primary news_devices__btn mr-2"
-              >Подробнее</a
-            ><a href="#" class="btn btn-primary news_devices__btn"
-              >Вход в программу</a
-            >
+      <div class="news_devices__box">
+        <div class="row">
+          <div class="col-6">
+            <h4>Проект состоит из трех основных компонентов</h4>
+            <p>
+              Рамках Компонента 1 и Компонента 2 будут разработаны, в
+              соответствии с международными стандартами, и реализованы 5
+              грантовых программ. Кроме того, в проекте есть Компонент 3 для
+              комплексной технической помощи для всех секторов (правительство,
+              университеты и бизнес) посредством консультирования, наращивания
+              потенциала.
+            </p>
+            <div class="row">
+              <a href="#" class="btn btn-outline-primary mr-2">Подробнее</a
+              ><a href="#" class="btn btn-primary">Вход в программу</a>
+            </div>
           </div>
-        </div>
-        <div class="col-6 news__devices_box">
-          <img src="./../../public/images/News/devices.png" alt="" />
+          <div class="col-6">
+            <img src="./../../public/images/News/devices.png" alt="" />
+          </div>
         </div>
       </div>
     </div>
@@ -189,7 +187,7 @@ export default {
   font-size: 13px;
   margin-bottom: 0;
 }
-.news_pacet__mini__line {
+.news__row_with__height p {
   width: 5%;
 }
 .news__row_with__height {
@@ -226,20 +224,24 @@ export default {
 .news__pacet__statuses div small {
   font-size: 12px;
 }
+.news_devices__box .row {
+  margin-top: 40px;
+}
 .news__devices_boxes {
   margin: 100px 0;
 }
-.news_devices_title {
+.news_devices__box .row .col-6 h4 {
   font-weight: 700;
+  margin: 18px 0;
 }
-.news_devices_text {
+.news_devices__box .row .col-6 p {
   font-size: 19px;
   margin-bottom: 20px;
 }
-.news__devices_btn_box {
+.news_devices__box .row .col-6 .row {
   justify-content: start;
 }
-.news__devices_btn_box > * {
+.news_devices__box .row .col-6 .row > * {
   width: 40%;
   margin-right: 10px;
 }
