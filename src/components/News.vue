@@ -3,7 +3,12 @@
     <div class="container">
       <div class="news__head">
         <h2>Новости</h2>
-        <a href="#" class="btn text-primary">Все новости</a>
+        <!-- <router-link to="/news" class="btn text-primary"
+          >Все новости</router-link
+        > -->
+        <router-link :to="{ name: 'news' }" class="btn text-primary"
+          >Все новости</router-link
+        >
       </div>
       <div class="row">
         <div class="col-3">

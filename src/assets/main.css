@@ -24,6 +24,10 @@
 .navbar {
   background-color: transparent;
 }
+.brand_wrapper {
+  display: flex;
+  align-items: center;
+}
 .navbar-brand img {
   width: 65%;
 }
@@ -86,7 +90,7 @@
 }
 /* Main Page Section  */
 .main_banner {
-  min-height: 96vh;
+  min-height: 100vh;
   background: linear-gradient(
       134.3deg,
       rgba(0, 0, 0, 0.76) 26.87%,
@@ -98,8 +102,11 @@
   background-size: cover;
   color: #fff;
 }
-.main_banner .container {
-  padding: 60px 0 30px;
+.banner_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .item h4 {
   font-size: 20px;
@@ -134,7 +141,7 @@
 .home-demo {
   position: relative;
   padding: 0 40px;
-  width: 93%;
+  width: 111%;
 }
 .home-demo h2 {
   color: #fff;

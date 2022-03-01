@@ -1,6 +1,6 @@
 
 $(function() {
-    var owl = $(".owl-carousel");
+    var owl = $(".banner__carousel");
     owl.owlCarousel({
       items: 3,
       margin: 10,

@@ -3,15 +3,17 @@
     <div class="navbar__section">
       <div class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="#"
-            ><img src="./../../public/images/MainPageImgs/frame1.png" alt=""
-          /></a>
-          <a class="navbar-brand" href="#"
-            ><img src="./../../public/images/MainPageImgs/frame2.png" alt=""
-          /></a>
-          <a class="navbar-brand last" href="#"
-            ><img src="./../../public/images/MainPageImgs/frame3.png" alt=""
-          /></a>
+          <div class="brand_wrapper">
+            <a class="navbar-brand" href="#"
+              ><img src="./../../public/images/MainPageImgs/frame1.png" alt=""
+            /></a>
+            <a class="navbar-brand" href="#"
+              ><img src="./../../public/images/MainPageImgs/frame2.png" alt=""
+            /></a>
+            <a class="navbar-brand last" href="#"
+              ><img src="./../../public/images/MainPageImgs/frame3.png" alt=""
+            /></a>
+          </div>
           <button
             class="navbar-toggler"
             type="button"
