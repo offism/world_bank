@@ -1,137 +1,121 @@
 <template>
   <section class="news__section">
     <div class="container">
-      <div class="row news__head">
-        <h2 class="news__title">Новости</h2>
-        <a href="#" class="news__btn btn text-primary">Все новости</a>
+      <div class="news__head">
+        <h2>Новости</h2>
+        <a href="#" class="btn text-primary">Все новости</a>
       </div>
-      <div class="row news__pacets">
-        <div class="col-3 news__pacet">
-          <img
-            src="./../../public/images/News/img1.png"
-            alt=""
-            class="news__pacet__img"
-          />
-          <div class="news__row_with__height row mt-1">
-            <small class="news__pacet__date">8 сентября 2021, 15:20</small>
-            <p class="news_pacet__mini__line">|</p>
-            <span class="news__pacet_view__num">10</span>
-            <small class="news__pacet__views"
-              ><i class="lnr lnr-eye"></i
-            ></small>
-          </div>
-          <h4 class="news__pacet__title">
-            Флаг Узбекистана запустили в стратосферу
-          </h4>
-          <p class="news__pacet__text">
-            Молодые ученые запустили аэростат с флагом Узбекистана в
-            стратосферу. Видео запуска опубликовало Министерство инноваций в
-            своем...
-          </p>
-          <small class="news__pacet__hashtag">#инновации</small>
-        </div>
-        <div class="col-3 news__pacet">
-          <img
-            src="./../../public/images/News/img2.png"
-            alt=""
-            class="news__pacet__img"
-          />
-          <div class="news__row_with__height row mt-1">
-            <small class="news__pacet__date">8 сентября 2021, 15:20</small>
-            <p class="news_pacet__mini__line">|</p>
-            <span class="news__pacet_view__num">10</span>
-            <small class="news__pacet__views"
-              ><i class="lnr lnr-eye"></i
-            ></small>
-          </div>
-          <h4 class="news__pacet__title">
-            В администрации Чусткого района назначен замхокима...
-          </h4>
-          <p class="news__pacet__text">
-            В Чустском районе Наманганской области заместителем хокима по
-            инновационному развитию стал Каримходжаев Отабек Тухтасинович. Об
-            этом сообщает...
-          </p>
-          <small class="news__pacet__hashtag">#инновации</small>
-        </div>
-        <div class="col-3 news__pacet">
-          <img
-            src="./../../public/images/News/img.png"
-            alt=""
-            class="news__pacet__img"
-          />
-          <div class="news__row_with__height row mt-1">
-            <small class="news__pacet__date">8 сентября 2021, 15:20</small>
-            <p class="news_pacet__mini__line">|</p>
-            <span class="news__pacet_view__num">10</span>
-            <small class="news__pacet__views"
-              ><i class="lnr lnr-eye"></i
-            ></small>
-          </div>
-          <h4 class="news__pacet__title">
-            В Узбекистане запустят масштабный медиапроект для...
-          </h4>
-          <p class="news__pacet__text">
-            В Узбекистане запустят медиапроект FURSAT по созданию молодежных
-            промышленных и предпринимательских зон (МППЗ) для привлечения
-            молодых...
-          </p>
-          <small class="news__pacet__hashtag">#инновации</small>
-        </div>
-        <div class="col-3 news__pacet">
-          <div class="row news__pacet__statuses">
-            <div class="news__pacet__status">
-              <h5 class="news__pacet_status__text">
-                Bank of Baroda снизил ставки по жилищным кредитам до 6,5%
-              </h5>
-              <div class="row news__pacet_status__date_box">
-                <small class="news__pacet_status__date">8 сентября 2021</small>
-                <small class="news__pacet_status__hashtag"
-                  >#состоянии проекта</small
-                >
+      <div class="row">
+        <div class="col-3">
+          <div class="news__pacet">
+            <img src="./../../public/images/News/img1.png" alt="Img" />
+            <div class="row">
+              <div class="news__row_with__height">
+                <small class="news__pacet__date">8 сентября 2021, 15:20</small>
+                <p class="news_pacet__mini__line">&nbsp;|</p>
+                <span>10</span>
+                <small class="news__pacet__views"
+                  ><i class="lnr lnr-eye"></i
+                ></small>
               </div>
-              <hr />
             </div>
-            <div class="news__pacet__status">
-              <h5 class="news__pacet_status__text">
-                Один из столичных районов преобразуют в инновационную...
-              </h5>
-              <div class="row news__pacet_status__date_box">
-                <small class="news__pacet_status__date">8 сентября 2021</small>
-                <small class="news__pacet_status__hashtag"
-                  >#состоянии проекта</small
-                >
+            <h4>Флаг Узбекистана запустили в стратосферу</h4>
+            <p class="news__pacet__text">
+              Молодые ученые запустили аэростат с флагом Узбекистана в
+              стратосферу. Видео запуска опубликовало Министерство инноваций в
+              своем...
+            </p>
+            <small class="news__pacet__hashtag">#инновации</small>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="news__pacet">
+            <img src="./../../public/images/News/img2.png" alt="Img" />
+            <div class="row mt-1">
+              <div class="news__row_with__height">
+                <small class="news__pacet__date">8 сентября 2021, 15:20</small>
+                <p class="news_pacet__mini__line">&nbsp;|</p>
+                <span>10</span>
+                <small class="news__pacet__views"
+                  ><i class="lnr lnr-eye"></i
+                ></small>
               </div>
-              <hr />
             </div>
-            <div class="news__pacet__status">
-              <h5 class="news__pacet_status__text">
-                Мининноваций реализует 25 инвестпроектов на сумму...
-              </h5>
-              <div class="row news__pacet_status__date_box">
-                <small class="news__pacet_status__date">8 сентября 2021</small>
-                <small class="news__pacet_status__hashtag"
-                  >#состоянии проекта</small
-                >
+            <h4>В администрации Чусткого района назначен замхокима...</h4>
+            <p class="news__pacet__text">
+              В Чустском районе Наманганской области заместителем хокима по
+              инновационному развитию стал Каримходжаев Отабек Тухтасинович. Об
+              этом сообщает...
+            </p>
+            <small class="news__pacet__hashtag">#инновации</small>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="news__pacet">
+            <img src="./../../public/images/News/img.png" alt="Img" />
+            <div class="row mt-1">
+              <div class="news__row_with__height">
+                <small class="news__pacet__date">8 сентября 2021, 15:20</small>
+                <p class="news_pacet__mini__line">&nbsp;|</p>
+                <span>10</span>
+                <small class="news__pacet__views"
+                  ><i class="lnr lnr-eye"></i
+                ></small>
               </div>
-              <hr />
             </div>
-            <div class="news__pacet__status">
-              <h5 class="news__pacet_status__text">
-                В Нукусе состоялась межотраслевая промышленная...
-              </h5>
-              <div class="row news__pacet_status__date_box">
-                <small class="news__pacet_status__date">8 сентября 2021</small>
-                <small class="news__pacet_status__hashtag"
-                  >#состоянии проекта</small
-                >
+            <h4>В Узбекистане запустят масштабный медиапроект для...</h4>
+            <p class="news__pacet__text">
+              В Узбекистане запустят медиапроект FURSAT по созданию молодежных
+              промышленных и предпринимательских зон (МППЗ) для привлечения
+              молодых...
+            </p>
+            <small class="news__pacet__hashtag">#инновации</small>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="news__pacet">
+            <div class="news__pacet__statuses">
+              <div>
+                <h5 class="news__pacet_status__text">
+                  Bank of Baroda снизил ставки по жилищным кредитам до 6,5%
+                </h5>
+                <div class="row">
+                  <p>8 сентября 2021</p>
+                  <small>#состоянии проекта</small>
+                </div>
+                <hr />
+              </div>
+              <div>
+                <h5 class="news__pacet_status__text">
+                  Один из столичных районов преобразуют в инновационную...
+                </h5>
+                <div class="row">
+                  <p>8 сентября 2021</p>
+                  <small>#состоянии проекта</small>
+                </div>
+                <hr />
+              </div>
+              <div>
+                <h5>Мининноваций реализует 25 инвестпроектов на сумму...</h5>
+                <div class="row">
+                  <p>8 сентября 2021</p>
+                  <small>#состоянии проекта</small>
+                </div>
+                <hr />
+              </div>
+              <div>
+                <h5>В Нукусе состоялась межотраслевая промышленная...</h5>
+                <div class="row">
+                  <p>8 сентября 2021</p>
+                  <small>#состоянии проекта</small>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
       <!-- DEVICES SECTION -->
-      <div class="row news__devices_boxes">
+      <div class="row mt-5">
         <div class="col-6 news__devices_box">
           <h4 class="news_devices_title my-4">
             Проект состоит из трех основных компонентов
@@ -169,6 +153,7 @@ export default {
 .news__section {
   min-height: 40vh;
   padding: 100px 0 30px;
+  margin: 0 0 60px;
 }
 .news__head {
   display: flex;
@@ -178,8 +163,8 @@ export default {
 .news__pacet {
   max-height: 20%;
 }
-.news__btn,
-.news__title {
+.news__head a,
+.news__head h2 {
   width: 20%;
 }
 .news__pacet__date {
@@ -197,37 +182,49 @@ export default {
 .news__pacet__hashtag {
   color: gray;
 }
-.news__pacet__img {
+.news__pacet img {
   width: 100%;
 }
 .news__pacet__text {
-  font-size: 15px;
+  font-size: 13px;
+  margin-bottom: 0;
 }
 .news_pacet__mini__line {
   width: 5%;
 }
 .news__row_with__height {
+  display: flex;
   height: 22px;
   margin-bottom: 10px;
 }
-.news__pacet_view__num {
+.news__row_with__height span {
   width: 10%;
   padding-right: 0;
   padding-left: 0;
   padding-top: 1px;
 }
 .news__pacet__statuses {
+  display: flex;
   flex-direction: column;
 }
-.news__pacet_status__text {
+.news__pacet__statuses div h5 {
   font-size: 17px;
 }
-.news__pacet_status__date_box > * {
+.news__pacet__statuses div .row {
+  align-items: center;
+}
+.news__pacet__statuses div .row > * {
   width: 50%;
   color: gray;
 }
-.news__pacet__status > hr {
+.news__pacet__statuses div > hr {
   margin: 7px 0;
+}
+.news__pacet__statuses div .row p {
+  margin-bottom: 0;
+}
+.news__pacet__statuses div small {
+  font-size: 12px;
 }
 .news__devices_boxes {
   margin: 100px 0;
