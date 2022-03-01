@@ -1,20 +1,21 @@
 <template>
-  <section class="main-header">
-    <div class="text__part">
-      <p class="main__date">30 сентября 2022</p>
-      <h2 class="main__title">
-        Узбекистан и Венгрия запускают конкурс на разработку научных проектов и
-        стартапов
-      </h2>
-      <small class="main__texture"
-        >Мининноваций Узбекистана совместно с Министерством иностранных дел и
-        торговли Венгрии объявили о запуске конкурса стартапов и научных
-        проектов по всем совместным направлениям...</small
-      >
-      <button class="main-podrobnie__btn btn">Подробнее</button>
+  <section class="main_banner">
+    <div class="container">
+      <div class="text__part">
+        <p>30 сентября 2022</p>
+        <h2>
+          Узбекистан и Венгрия запускают конкурс на разработку научных проектов
+          и стартапов
+        </h2>
+        <small
+          >Мининноваций Узбекистана совместно с Министерством иностранных дел и
+          торговли Венгрии объявили о запуске конкурса стартапов и научных
+          проектов по всем совместным направлениям...</small
+        >
+        <button class="btn">Подробнее</button>
+      </div>
     </div>
     <div class="home-demo">
-      <hr class="home-demo__horizontal" />
       <div class="owl-carousel owl-theme">
         <div class="item">
           <p class="slide__date">30 сентября 2022</p>
@@ -71,10 +72,9 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.main-header {
-  min-height: 100vh;
+.main_banner {
+  min-height: 96vh;
   background: linear-gradient(
       134.3deg,
       rgba(0, 0, 0, 0.76) 26.87%,
@@ -85,13 +85,18 @@ export default {
   background-position: center;
   background-size: cover;
   color: #fff;
-  padding: 200px 130px;
+}
+.main_banner .container {
+  padding: 60px 0 30px;
+}
+.item h4 {
+  font-size: 20px;
 }
 .text__part {
   display: flex;
   flex-direction: column;
 }
-.main-podrobnie__btn {
+.text__part button {
   width: 20%;
   margin: 30px 0;
   display: inline-block;
@@ -112,8 +117,8 @@ export default {
 }
 .home-demo {
   position: relative;
-  margin-top: 40px;
-  width: 95%;
+  padding: 0 40px;
+  width: 93%;
 }
 .home-demo h2 {
   color: #fff;
@@ -122,17 +127,5 @@ export default {
   margin: 0;
   font-style: italic;
   font-weight: 300;
-}
-.item {
-  /* border-left: 0.5px solid #ccc; */
-  border-right: 1px solid rgb(73, 72, 72);
-}
-
-.home-demo__horizontal {
-  position: absolute;
-
-  top: -16px;
-  height: 2px;
-  width: 100%;
 }
 </style>

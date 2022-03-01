@@ -153,9 +153,10 @@ export default {
 .img_3 {
   margin-bottom: 20px !important;
 }
-/* .slick-dots {
-  top: -25% !important;
-  right: -47% !important;
-  bottom: 0 !important;
-} */
+.slick-dots {
+  position: absolute;
+  top: -60% !important;
+  display: flex !important;
+  justify-content: flex-end;
+}
 </style>
