@@ -1,11 +1,11 @@
 <template>
   <section class="questions__section">
     <div class="container">
-      <div class="row question_box">
+      <div class="row">
         <div class="question_text__box">
-          <h3 class="question_text_box__title">Часто задаваемые вопросы</h3>
-          <div class="row question_text_box_row">
-            <div class="col-8 question_according__box my-4">
+          <h3>Часто задаваемые вопросы</h3>
+          <div class="row">
+            <div class="col-8">
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
@@ -183,7 +183,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 question_img__box">
+            <div class="col-4">
               <img src="./../../public/images/Questions/frame.png" alt="" />
             </div>
           </div>
@@ -209,19 +209,16 @@ export default {
   position: relative;
   margin: 40px 0;
 }
-.question_text_box__title {
-  margin-bottom: 60px;
+.question_text__box h3 {
+  margin-bottom: 30px;
 }
-.question_box_cancel__btn {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.question_text_box__question {
-  font-weight: 500;
-}
-.question_text_box_row {
-  /* align-items: center; */
+.question_text__box .row {
   justify-content: space-between;
+}
+.question_text__box .row .col-8 {
+  margin-top: 30px;
+}
+.accordion-button:focus {
+  z-index: 1;
 }
 </style>

@@ -132,6 +132,9 @@ form {
   align-items: center;
   width: 50%;
 }
+#search__input {
+  color: #fff;
+}
 .last {
   margin-right: 6px;
 }
