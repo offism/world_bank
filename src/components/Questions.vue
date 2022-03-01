@@ -199,26 +199,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.questions__section {
-  min-height: 50vh;
-  padding: 0;
-  margin: 0 0 40px;
-}
-.question_texture__box {
-  position: relative;
-  margin: 40px 0;
-}
-.question_text__box h3 {
-  margin-bottom: 30px;
-}
-.question_text__box .row {
-  justify-content: space-between;
-}
-.question_text__box .row .col-8 {
-  margin-top: 30px;
-}
-.accordion-button:focus {
-  z-index: 1;
-}
-</style>
+<style scoped></style>

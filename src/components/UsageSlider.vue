@@ -62,29 +62,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.usage_slider__section {
-  min-height: 10vh;
-  margin: 60px 0;
-}
-.usage_slider__section h3 {
-  margin-bottom: 25px;
-}
-.usage_slider__slide {
-  text-align: center;
-  margin-right: 5px;
-  padding: 20px 40px;
-  border: 1px solid #ccc;
-}
-.usage_slider__slide p {
-  margin-bottom: 0;
-}
-.usage_slider__slide img {
-  display: block;
-  margin-bottom: 12px;
-  margin: 10px auto;
-}
-.img_3 {
-  margin-bottom: 20px !important;
-}
-</style>
+<style scoped></style>

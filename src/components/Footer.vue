@@ -34,7 +34,7 @@
             </ul>
           </div>
 
-          <div class="col-2 footer_menu__box">
+          <div class="col-2">
             <h5 class="footer_menu__title">Меню</h5>
             <ul class="footer_menu__links">
               <li class="footer_menu__item">
@@ -59,7 +59,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-3 footer_adress__box">
+          <div class="col-3">
             <label class="footer_menu__title h5" id="footer__adress"
               >Адрес:</label
             >
@@ -80,10 +80,10 @@
               >munis@mininnovation.uz</small
             >
           </div>
-          <div class="col-3 footer_mail__box">
+          <div class="col-3">
             <form class="form-control">
               <input type="text" placeholder="Эл. почта" class="form-control" />
-              <button class="btn footer_mail__link">Подписаться</button>
+              <button class="btn">Подписаться</button>
               <p class="footer_main__text">
                 Сайт обновлялся последний раз: 06:42, 13.07.2021 (GMT+5)
               </p>
@@ -160,16 +160,17 @@ export default {
 .fmt_top {
   margin-top: 10px;
 }
-.footer_mail__box form {
+.footer-wrapper .row .col-3 form {
   background: transparent;
   border: none;
   color: #fff;
   margin-top: 34px;
 }
-.footer_mail__box form input {
+.footer-wrapper .row .col-3 form input {
   background-color: transparent;
+  color: #fff;
 }
-.footer_mail__link {
+.footer-wrapper .row .col-3 form button {
   margin: 10px 0 20px;
   color: #05278d;
   background-color: #fff;
@@ -178,7 +179,7 @@ export default {
 ::placeholder {
   color: #fff;
 }
-.footer_mail__link:hover {
+.footer-wrapper .row .col-3 form button:hover {
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;

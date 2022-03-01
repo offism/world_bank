@@ -1,5 +1,5 @@
 <template>
-  <header class="header">
+  <header class="header" id="head">
     <div class="navbar__section">
       <div class="navbar navbar-expand-lg">
         <div class="container">
@@ -92,78 +92,4 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.header {
-  height: 80px;
-  background-color: black;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-  box-shadow: 0px -1px 8.4px #ababb3;
-}
-.navbar__section {
-  position: absolute;
-  width: 100%;
-}
-.container {
-  max-width: 1060px;
-}
-.nav-link.i i {
-  font-weight: bold;
-}
-.nav-item.l {
-  padding: 5px;
-}
-.navbar {
-  background-color: transparent;
-}
-.navbar-brand img {
-  width: 65%;
-}
-.navbar-brand {
-  margin-right: 0;
-}
-.nav-link,
-.nav-item span {
-  color: #fff;
-}
-
-form {
-  align-items: center;
-  width: 50%;
-}
-#search__input {
-  color: #fff;
-}
-.last {
-  margin-right: 6px;
-}
-label {
-  width: 8%;
-}
-label:hover {
-  cursor: pointer;
-}
-form > * {
-  color: #fff;
-}
-form input {
-  background: transparent;
-  border: none;
-}
-::placeholder {
-  color: #fff;
-}
-.navbar-nav {
-  width: 57%;
-}
-form input:focus {
-  background-color: rgba(256, 256, 256, 0.2);
-}
-form input:focus-visible {
-  outline: none;
-}
-.navbar-nav .nav-item {
-  margin-right: 10px;
-}
-</style>
+<style scoped></style>
