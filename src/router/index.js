@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 
 // pages
 import Home from '../pages'
+import News from '../pages/news/news.vue'
+import Contacts from '../pages/contacts/contacts.vue'
 
 Vue.use(VueRouter)
 
@@ -16,8 +18,13 @@ const router = new VueRouter({
         },
         {
             path: '/news',
-            component: () => import('../pages/news'),
-            name: "news"
+            component: News,
+            name: "News"
+        },
+        {
+            path: '/contacts',
+            component: Contacts,
+            name: "Contacts"
         }
     ]
 })

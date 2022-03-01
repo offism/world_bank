@@ -40,17 +40,17 @@
             </form>
             <ul class="navbar-nav ml-4 mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="/contacts"
                   ><i class="lnr lnr-smartphone"></i
                 ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a class="nav-link" href="/news"
                   ><i class="fas fa-solid fa-glasses"></i
                 ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link i" href="#"
+                <a class="nav-link i" aria-current="page" href="/news"
                   ><i class="lnr lnr-volume-medium"></i
                 ></a>
               </li>

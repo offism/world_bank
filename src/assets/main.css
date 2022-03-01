@@ -387,13 +387,14 @@
   width: 90%;
   margin: 0 auto;
   color: #fff;
-  /* height: 33vh; */
 }
-/* .paginationTitle__wrapper img {
-} */
-/* .paginationTitle__wrapper img::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  /* background-color: linear-gradient(to right, blue, white); */
+
+.paginationTitle__wrapper .container a {
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease all;
+}
+.paginationTitle__wrapper .container a:hover {
+  color: #ababb3;
+}
