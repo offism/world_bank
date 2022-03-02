@@ -2,9 +2,8 @@
 .header {
   height: 80px;
   background-color: black;
-  position: sticky;
-  transition: 0.3s ease all;
-  top: 0;
+  transition: 1s ease all;
+  top: 0px;
   z-index: 2;
   box-shadow: 0px -1px 8.4px #ababb3;
 }
@@ -549,4 +548,9 @@
   width: 120%;
   height: 120%;
   border: 2px solid #888;
+}
+
+/**************************** Site Responsive Parts! ***********************************/
+.navbar-toggler {
+  color: #fff;
 }

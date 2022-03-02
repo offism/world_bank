@@ -95,6 +95,16 @@
 <script>
 export default {
   name: "NavbarSection",
+  mounted() {
+    let header = document.querySelector(".header");
+    document.addEventListener("scroll", (e) => {
+      if (e.path[1].pageYOffset > 0) {
+        header.style.position = "sticky";
+      } else {
+        header.style.position = "";
+      }
+    });
+  },
 };
 </script>
 

@@ -3,7 +3,6 @@
     <NavbarSection />
     <PaginationTitle />
     <MapSection />
-
     <Footer />
   </div>
 </template>
