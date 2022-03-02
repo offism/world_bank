@@ -41,7 +41,9 @@
       <div class="modernitation__body">
         <div class="row align-items-center justify-content-center">
           <div class="col-6">
-            <h3>МОДЕРНИЗАЦИЯ НАЦИОНАЛЬНОЙ ИННОВАЦИОННОЙ СИСТЕМЫ УЗБЕКИСТАНА</h3>
+            <h5 class="mb-4">
+              МОДЕРНИЗАЦИЯ НАЦИОНАЛЬНОЙ ИННОВАЦИОННОЙ СИСТЕМЫ УЗБЕКИСТАНА
+            </h5>
             <p>
               28 октября 2020 года Совет директоров Всемирного банка одобрил
               проект «Модернизация национальной инновационной системы
@@ -51,8 +53,10 @@
             </p>
             <button class="btn">Подробнее</button>
           </div>
-          <div class="modern_img__box col-6">
-            <img src="./../../public/images/Pacets/modern_place.png" alt="" />
+          <div class="col-6">
+            <div class="modern_img__box">
+              <img src="./../../public/images/Pacets/modern_place.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
