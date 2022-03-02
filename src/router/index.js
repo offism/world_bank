@@ -5,6 +5,7 @@ import VueRouter from 'vue-router'
 import Home from '../pages'
 import News from '../pages/news/news.vue'
 import Contacts from '../pages/contacts/contacts.vue'
+import NotFound from '../components/NotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -25,6 +26,11 @@ const router = new VueRouter({
             path: '/contacts',
             component: Contacts,
             name: "Contacts"
+        },
+        {
+            path: '*',
+            component: NotFound,
+            name: "NotFound"
         }
     ]
 })
