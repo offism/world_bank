@@ -14,6 +14,18 @@
               ><img src="./../../public/images/MainPageImgs/frame3.png" alt=""
             /></a>
           </div>
+          <form class="d-flex">
+            <label for="search__input">
+              <i class="lnr lnr-magnifier"></i>
+            </label>
+            <input
+              id="search__input"
+              class="form-control me-2"
+              type="search"
+              placeholder="Поиск по сайту"
+              aria-label="Search"
+            />
+          </form>
           <button
             class="navbar-toggler"
             type="button"
@@ -23,21 +35,9 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <i class="lnr lnr-menu"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <form class="d-flex">
-              <label for="search__input">
-                <i class="lnr lnr-magnifier"></i>
-              </label>
-              <input
-                id="search__input"
-                class="form-control me-2"
-                type="search"
-                placeholder="Поиск по сайту"
-                aria-label="Search"
-              />
-            </form>
             <ul class="navbar-nav ml-4 mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
@@ -78,13 +78,10 @@
                   <li><a class="dropdown-item mr-4" href="#">Eng</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a
-                  class="vxod_btn nav-link hov btn btn-primary text-white mx-1 px-4"
-                  >Вход в программу</a
-                >
-              </li>
             </ul>
+            <div class="nav_btn__box">
+              <button class="vxod_btn btn">Вход в программу</button>
+            </div>
           </div>
         </div>
       </div>

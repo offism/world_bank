@@ -26,6 +26,7 @@
 .brand_wrapper {
   display: flex;
   align-items: center;
+  width: 25%;
 }
 .navbar-brand img {
   width: 65%;
@@ -40,10 +41,14 @@
 .nav-link:hover {
   color: #a2a3af;
 }
-
-.collapse form {
+.navbar-nav {
+  display: flex;
   align-items: center;
-  width: 50%;
+  justify-content: center;
+}
+.navbar__section .navbar .container form {
+  align-items: center;
+  width: 40%;
 }
 #search__input {
   color: #fff;
@@ -51,16 +56,16 @@
 .last {
   margin-right: 6px;
 }
-.collapse form label {
+.navbar__section .navbar .container form label {
   width: 8%;
 }
-.collapse form label:hover {
+.navbar__section .navbar .container form label:hover {
   cursor: pointer;
 }
-.collapse form > * {
+.navbar__section .navbar .container form > * {
   color: #fff;
 }
-.collapse form input {
+.navbar__section .navbar .container form input {
   background: transparent;
   border: none;
 }
@@ -70,16 +75,20 @@
 .navbar-nav {
   width: 57%;
 }
-.collapse form input:focus {
+.navbar__section .navbar .container form input:focus {
   background-color: rgba(256, 256, 256, 0.2);
 }
-.collapse form input:focus-visible {
+.navbar__section .navbar .container form input:focus-visible {
   outline: none;
 }
 .navbar-nav .nav-item {
   margin-right: 10px;
 }
 .vxod_btn {
+  padding: 7px 10px;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
   background-color: #529dd6;
   border: none;
 }
@@ -553,4 +562,16 @@
 /**************************** Site Responsive Parts! ***********************************/
 .navbar-toggler {
   color: #fff;
+}
+
+@media screen and (max-width: 998px) {
+  .navbar .container {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (min-width: 998px) and (max-width: 1126px) {
+  .vxod_btn {
+    font-size: 15px;
+  }
 }

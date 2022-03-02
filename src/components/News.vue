@@ -122,7 +122,7 @@
       <!-- DEVICES SECTION -->
       <div class="news_devices__box">
         <div class="row">
-          <div class="col-6">
+          <div class="col-xl-6">
             <h4>Проект состоит из трех основных компонентов</h4>
             <p>
               Рамках Компонента 1 и Компонента 2 будут разработаны, в
@@ -137,7 +137,7 @@
               ><a href="#" class="btn btn-primary">Вход в программу</a>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-xl-6">
             <img src="./../../public/images/News/devices.png" alt="" />
           </div>
         </div>

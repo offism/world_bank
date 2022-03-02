@@ -5,7 +5,7 @@
         <div class="question_text__box">
           <h3>Часто задаваемые вопросы</h3>
           <div class="row">
-            <div class="col-8">
+            <div class="col-xl-8">
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
@@ -183,7 +183,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-xl-4">
               <img src="./../../public/images/Questions/frame.png" alt="" />
             </div>
           </div>

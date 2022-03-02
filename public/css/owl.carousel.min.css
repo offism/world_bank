@@ -9,16 +9,16 @@
 .owl-prev {
   border: 1px solid #ccc;
   position: absolute;
-  top: -61px;
-  right: -35px;
+  top: -50%;
+  right: 7%;
   font-size: 40px !important;
   transition: 0.3s ease all;
 }
 .owl-next {
   transition: 0.3s ease all;
   position: absolute;
-  top: -61px;
-  right: -60px;
+  top: -50%;
+  right: 4%;
   font-size: 40px !important;
 }
 .owl-prev:hover,
