@@ -406,9 +406,7 @@
 .map__wrapper .row .col-5 {
   border: 1px solid #ccc;
 }
-.map__wrapper .row .col-7 img {
-  width: 100%;
-}
+
 .map_socials {
   display: flex;
   list-style-type: none;

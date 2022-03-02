@@ -38,7 +38,14 @@
             </ul>
           </div>
           <div class="col-7">
-            <img src="./../../public/images/map/map.png" alt="" />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.1072610887645!2d69.34439151504266!3d41.37175427926567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef39a116bbcbf%3A0xa31397ff937bc465!2z0KPQvdC40LLQtdGA0YHQuNGC0LXRgtGB0LrQsNGPINGD0LvQuNGG0LAsINCi0L7RiNC60LXQvdGCLCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1646208334087!5m2!1sru!2s"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
           </div>
         </div>
       </div>
