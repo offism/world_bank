@@ -5,6 +5,7 @@
     <Modernitation />
     <News />
     <Questions />
+    <Map />
     <UsageSlider />
     <Footer />
   </div>
@@ -18,6 +19,7 @@ import Modernitation from "../components/Modernitation.vue";
 import Questions from "../components/Questions.vue";
 import UsageSlider from "../components/UsageSlider.vue";
 import Footer from "../components/Footer.vue";
+import Map from "../components/Map.vue";
 
 export default {
   name: "Home",
@@ -27,6 +29,7 @@ export default {
     Modernitation,
     News,
     Questions,
+    Map,
     Footer,
     UsageSlider,
   },

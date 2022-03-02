@@ -2,6 +2,7 @@
   <section class="map__section">
     <div class="container">
       <div class="map__wrapper">
+        <h3>Контакты</h3>
         <div class="row">
           <div class="col-5">
             <label class="map__title h5" id="map__adress">Адрес:</label>
