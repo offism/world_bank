@@ -37,7 +37,10 @@
           >
             <i class="lnr lnr-menu"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="collapse_menu collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav ml-4 mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
