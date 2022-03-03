@@ -168,8 +168,8 @@ body {
 }
 .home-demo {
   position: relative;
-  padding: 0 40px;
-  width: 111%;
+  padding: 0 40px 0 25px;
+  width: 106%;
 }
 .home-demo h2 {
   color: #fff;
