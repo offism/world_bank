@@ -4,7 +4,7 @@
       <div class="modernitation__header">
         <div class="row">
           <div class="col-4">
-            <div class="modernitation_pacet__img">
+            <div class="modernitation_pacet__img pl-0">
               <div class="modernitation_pacet_box__img">
                 <img src="./../../public/images/Pacets/pacet_img3.png" alt="" />
               </div>
@@ -24,7 +24,7 @@
             <h4>Международном экспертном совете</h4>
             <p>У нас есть международная команда экспертов</p>
           </div>
-          <div class="col-4">
+          <div class="col-4 pr-0">
             <div class="modernitation_pacet__img">
               <div class="modernitation_pacet_box__img">
                 <img src="./../../public/images/Pacets/pacet_img.png" alt="" />

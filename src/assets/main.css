@@ -906,6 +906,9 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
   .collapse_menu {
     justify-content: space-around;
     background-color: gray;
@@ -1041,138 +1044,91 @@ body {
     font-size: 15px;
     margin-bottom: 20px;
   }
-  /* 
-  
-  .modernitation__header .row .col-4 p {
-    font-size: 14px;
-    font-weight: 500;
-  }
-  .modernitation__body .row .col-6 h5 {
-    font-size: 14px;
-    margin-bottom: 6%;
-  }
-  .modernitation__body .row .col-6 p {
-    font-size: 9px;
-  }
-  .news__head h2 {
-    font-size: 20px;
-  }
-  .news__head a,
-  .news__head h2 {
-    width: 19%;
-    font-size: 11px;
-    padding-right: 0;
-  }
-  .news__pacet__statuses div h5 {
-    font-size: 10px;
-  }
-  .news__pacet__statuses div .row > * {
-    width: 50%;
-  }
-  .news__pacet__statuses div .row p {
-    font-size: 5px;
-  }
-  .news__pacet__statuses div small {
-    font-size: 5px;
-    padding: 0;
-  }
-  .news__pacet__statuses div > hr {
-    margin: 4px 0;
-  }
-  .news__section {
-    min-height: 40vh;
-    padding: 30px 0 0px;
-  }
-  .news__row_with__height {
-    display: flex;
-    align-items: center;
-    height: 22px;
-    padding: 0;
-    margin: 3px 0;
-  }
-  .news__pacet__date {
-    font-size: 7px;
-  }
-  .news__pacet__views {
-    font-size: 7px;
-  }
-  .news__pacet h4 {
-    font-size: 10px;
-  }
-  .news__pacet__text {
-    font-size: 8px;
-  }
-  .news_devices__box .row .col-xl-6 h4 {
-    margin: 12px 0;
-    font-size: 20px;
-  }
-  .news_devices__box .row .col-xl-6 p {
-    font-size: 16px;
-  }
   .news_devices__box .row .col-xl-6 .row button {
-    width: 33%;
+    margin-right: 1%;
+    font-size: 10px;
+    width: 25%;
   }
   .question_text__box h3 {
+    font-weight: 700;
+    margin-bottom: 27px;
     font-size: 20px;
+  }
+  .question_text__box .row .col-xl-4 {
+    margin-top: 6%;
   }
   .map__wrapper h3 {
     font-weight: 700;
-    margin-bottom: 29px;
+    margin-bottom: 30px;
     font-size: 20px;
   }
-  .map__title {
-    margin: 10px 0;
-    display: block;
-    font-size: 14px;
-    font-weight: 600;
+  .news_devices_box_row_col img {
+    width: 80%;
   }
-  .questions__section {
-    min-height: 50vh;
+  .modernitation__header .row {
+    width: 100%;
+    margin: 0;
+  }
+
+  .modernitation__header .row .col-4 {
     padding: 0;
-    margin: 0 0 20px;
   }
-  .map__section {
-    margin: 20px 0 0;
+  .modernitation__header .row .col-4:nth-child(2) {
+    padding: 0px 5px;
   }
-  .question_text__box .row .col-xl-4 {
-    margin-top: 25px;
+  .footer-wrapper .row .col-3 form button {
+    width: 100%;
+    font-size: 10px;
+    margin: 8px 0 0px;
+    color: #05278d;
+    background-color: #fff;
+    transition: 0.2s ease all;
+  }
+  .map__wrapper .row {
+    margin: 0;
+    width: 100%;
   }
   .usage_slider__section {
     min-height: 10vh;
     margin: 30px 0;
   }
-  .usage_slider__slide p {
-    font-size: 13px;
+  .usage_slider__section h3 {
+    font-size: 20px;
   }
-  .footer-wrapper .row .col-4 {
-    padding: 12px 0 0;
+  .usage_slider__section .container .row {
+    margin: 0;
+    width: 100%;
+  }
+  .footer {
+    margin: 40px 0 0;
   }
   .footer-wrapper .row .col-4 p {
-    font-size: 12px;
+    font-size: 11px;
     margin-bottom: 8px;
+  }
+  .footer-wrapper .row .col-4 {
+    padding: 0 14px;
   }
   .footer_attention_social__item {
     margin-right: 12px;
     font-size: 19px;
   }
-  .footer_menu__link {
-    font-size: 10px;
-    margin-bottom: 0px;
-  }
   .footer_menu__title {
-    display: flex;
-    margin-bottom: 0px !important;
+    margin: 15px 0;
     font-size: 14px;
     font-weight: 700;
   }
-  .footer-wrapper .row .col-3 small {
-    font-size: 8px;
+  .footer_menu__link {
+    font-size: 10px;
   }
-  .footer-wrapper .row .col-3 form {
-    padding: 0;
+  .footer-wrapper .row .col-3 small {
+    font-size: 6px;
   }
   .footer-wrapper .row .col-3 form input {
     font-size: 12px;
+  }
+  .footer-wrapper .row .col-3 form {
+    padding: 0;
   }
   .footer-wrapper .row .col-3 form button {
     margin: 10px 0 8px;
@@ -1183,5 +1139,26 @@ body {
   }
   .footer_menu__links {
     font-size: 14px;
-  } */
+  }
+  .footer_menu__title {
+    margin-bottom: 0px;
+    font-size: 14px;
+  }
+  .footer-wrapper .row .col-3 form button {
+    margin: 7px 0 8px;
+    font-size: 10px;
+  }
+  /* 
+  
+  
+  
+  .footer_attention_social__item {
+    margin-right: 12px;
+    font-size: 19px;
+  }
+  .footer_menu__link {
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+  */
 }
