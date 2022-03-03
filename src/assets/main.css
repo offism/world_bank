@@ -3,7 +3,9 @@ body {
   font-family: "Inter", serif;
 }
 .header {
-  height: 80px;
+  display: flex;
+  align-items: center;
+  height: 60px;
   background-color: black;
   transition: 1s ease all;
   top: 0px;
@@ -35,7 +37,7 @@ body {
 .brand_wrapper {
   display: flex;
   align-items: center;
-  width: 25%;
+  width: 20%;
 }
 .navbar-toggler {
   color: #fff;
@@ -103,6 +105,7 @@ body {
   text-decoration: none;
   background-color: #529dd6;
   border: none;
+  font-size: 14px;
 }
 .vxod_btn:hover {
   color: #fff;
@@ -187,6 +190,10 @@ body {
 .modernitation__body {
   margin: 20px 0;
 }
+.modernitation__body .row .col-6 h5 {
+  font-weight: 700;
+  margin-bottom: 7%;
+}
 .modernitation__body .row .col-6 button {
   margin: 15px 0;
   display: inline-block;
@@ -259,6 +266,11 @@ body {
 .news__head h2 {
   width: 20%;
 }
+
+.news__head h2 {
+  font-weight: 700;
+  margin-bottom: 3%;
+}
 .news__row_with__height,
 .news__pacet__hashtag {
   color: gray;
@@ -303,7 +315,7 @@ body {
   flex-direction: column;
 }
 .news__pacet__statuses div h5 {
-  font-size: 17px;
+  font-size: 15px;
 }
 .news__pacet__statuses div .row {
   align-items: center;
@@ -317,10 +329,11 @@ body {
 }
 .news__pacet__statuses div .row p {
   margin-bottom: 0;
+  padding-left: 0;
   font-size: 12px;
 }
 .news__pacet__statuses div small {
-  font-size: 11px;
+  font-size: 10px;
 }
 .news_devices_box_row {
   margin: 6% 0;
@@ -341,7 +354,7 @@ body {
 }
 .news_devices__box .row .col-xl-6 .row button {
   margin-right: 1%;
-  width: 30%;
+  width: 31%;
 }
 .news_devices_box_row_col {
   display: flex;
@@ -360,6 +373,7 @@ body {
   margin: 40px 0;
 }
 .question_text__box h3 {
+  font-weight: 700;
   margin-bottom: 30px;
 }
 .question_text__box .row {
@@ -380,6 +394,7 @@ body {
 }
 .usage_slider__section h3 {
   margin-bottom: 25px;
+  font-weight: 700;
 }
 .usage_slider__slide {
   text-align: center;
@@ -452,6 +467,7 @@ body {
   margin-right: 15px;
 }
 .map__wrapper h3 {
+  font-weight: 700;
   margin-bottom: 40px;
 }
 .map_socials li a.f:hover {
@@ -592,16 +608,16 @@ body {
     padding: 0;
   }
   .news__pacet__statuses div .row p {
-    font-size: 11px;
-  }
-  .news__pacet__statuses div small {
     font-size: 9px;
   }
-  .news__pacet__date {
-    width: 72%;
+  .news__pacet__statuses div small {
+    font-size: 7px;
   }
-  .news_devices_box_row .row:first-child {
-    margin-bottom: 20px;
+  .news__pacet__date {
+    width: 80%;
+  }
+  .news_devices_box_row .row .col-xl-6:first-child {
+    margin-bottom: 5%;
   }
   .question_text__box .row .col-xl-4 {
     display: flex;
@@ -616,7 +632,29 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .vxod_btn {
+    font-size: 12px;
+  }
+  .slide__texture {
+    font-size: 11px;
+  }
+  .item h4 {
+    font-size: 19px;
+  }
+  .modernitation__body .row .col-6 h5 {
+    font-size: 15px;
+  }
+  .modernitation__body .row .col-6 p {
     font-size: 13px;
+  }
+  .news__pacet__date {
+    font-size: 10px;
+    width: 74%;
+  }
+  .news__pacet__views {
+    font-size: 10px;
+  }
+  .news__pacet__statuses div small {
+    font-size: 5px;
   }
   .home-demo {
     padding: 0;
@@ -642,39 +680,19 @@ body {
   .news__pacet__statuses div .row p {
     font-size: 8px;
   }
-  .news__pacet__statuses div small {
-    font-size: 7px;
-  }
   .news__pacet h4 {
-    font-size: 16px;
+    font-size: 12px;
   }
-  .news__pacet__date {
-    width: 70%;
-    font-size: 10px;
+  .news__pacet__statuses div h5 {
+    font-size: 13px;
   }
-  /* 
-  .news_devices_box_row .row:first-child {
-    margin-bottom: 20px;
+  .news_devices__box .row .col-xl-6 p {
+    font-size: 15px;
   }
   .question_text__box .row .col-xl-4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 8%;
+    margin-top: 5%;
   }
   .footer_menu__link {
-    font-size: 17px;
-  } */
-}
-
-@media screen and (min-width: 998px) and (max-width: 1126px) {
-  .vxod_btn {
-    font-size: 15px;
-  }
-}
-
-@media screen and (min-width: 991px) and (max-width: 998px) {
-  .vxod_btn {
-    font-size: 15px;
+    font-size: 14px;
   }
 }

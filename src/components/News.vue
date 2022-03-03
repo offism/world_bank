@@ -14,7 +14,7 @@
         <div class="col-3">
           <div class="news__pacet">
             <img src="./../../public/images/News/img1.png" alt="Img" />
-            <div class="row">
+            <div class="row mt-1">
               <div class="news__row_with__height">
                 <small class="news__pacet__date"
                   >8 сентября 2021, 15:20 |</small
