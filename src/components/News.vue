@@ -16,11 +16,11 @@
             <img src="./../../public/images/News/img1.png" alt="Img" />
             <div class="row">
               <div class="news__row_with__height">
-                <small class="news__pacet__date">8 сентября 2021, 15:20</small>
-                <p>&nbsp;|</p>
-                <span>10</span>
+                <small class="news__pacet__date"
+                  >8 сентября 2021, 15:20 |</small
+                >
                 <small class="news__pacet__views"
-                  ><i class="lnr lnr-eye"></i
+                  >10 <i class="lnr lnr-eye"></i
                 ></small>
               </div>
             </div>
@@ -38,11 +38,11 @@
             <img src="./../../public/images/News/img2.png" alt="Img" />
             <div class="row mt-1">
               <div class="news__row_with__height">
-                <small class="news__pacet__date">8 сентября 2021, 15:20</small>
-                <p>&nbsp;|</p>
-                <span>10</span>
+                <small class="news__pacet__date"
+                  >8 сентября 2021, 15:20 |</small
+                >
                 <small class="news__pacet__views"
-                  ><i class="lnr lnr-eye"></i
+                  >10 <i class="lnr lnr-eye"></i
                 ></small>
               </div>
             </div>
@@ -60,11 +60,11 @@
             <img src="./../../public/images/News/img.png" alt="Img" />
             <div class="row mt-1">
               <div class="news__row_with__height">
-                <small class="news__pacet__date">8 сентября 2021, 15:20</small>
-                <p>&nbsp;|</p>
-                <span>10</span>
+                <small class="news__pacet__date"
+                  >8 сентября 2021, 15:20 |</small
+                >
                 <small class="news__pacet__views"
-                  ><i class="lnr lnr-eye"></i
+                  >10 <i class="lnr lnr-eye"></i
                 ></small>
               </div>
             </div>

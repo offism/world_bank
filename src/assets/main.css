@@ -1,4 +1,7 @@
 /* Navbar Section */
+body {
+  font-family: "Inter", serif;
+}
 .header {
   height: 80px;
   background-color: black;
@@ -256,23 +259,16 @@
 .news__head h2 {
   width: 20%;
 }
-.news__pacet__date {
-  width: 60%;
-  padding-top: 5px;
-  padding-right: 0;
-}
-.news__pacet__views {
-  width: 10%;
-  padding-top: 4px;
-  padding-left: 0;
-  padding-right: 0;
-}
 .news__row_with__height,
 .news__pacet__hashtag {
   color: gray;
 }
 .news__pacet img {
   width: 100%;
+}
+.news__pacet .row {
+  width: 100%;
+  margin: 0;
 }
 .news__pacet h4 {
   font-size: 20px;
@@ -286,15 +282,20 @@
 }
 .news__row_with__height {
   display: flex;
+  align-items: center;
   height: 22px;
-  margin-bottom: 10px;
+  padding: 0;
+  margin: 10px 0;
+}
+.news__pacet__views {
+  margin-left: 1%;
 }
 .news__row_with__height span {
   width: 10%;
   padding-right: 0;
   padding-left: 0;
   padding-top: 1px;
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 2px;
 }
 .news__pacet__statuses {
@@ -621,18 +622,37 @@
     padding: 0;
     width: 100%;
   }
-  /* .navbar .container {
-    padding: 0;
+  .collapse_menu {
+    background-color: gray;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    width: 45%;
+    top: 162%;
+    padding: 10px;
+    position: absolute;
+  }
+  .navbar .container {
+    position: relative;
+  }
+  .collapse_menu .navbar-nav {
+    display: flex;
+    flex-direction: row;
   }
   .news__pacet__statuses div .row p {
-    font-size: 11px;
+    font-size: 8px;
   }
   .news__pacet__statuses div small {
-    font-size: 9px;
+    font-size: 7px;
+  }
+  .news__pacet h4 {
+    font-size: 16px;
   }
   .news__pacet__date {
-    width: 72%;
+    width: 70%;
+    font-size: 10px;
   }
+  /* 
   .news_devices_box_row .row:first-child {
     margin-bottom: 20px;
   }
@@ -645,26 +665,6 @@
   .footer_menu__link {
     font-size: 17px;
   } */
-}
-
-@media screen and (max-width: 990px) {
-  .collapse_menu {
-    background-color: gray;
-    right: 0;
-    display: flex;
-    align-items: center;
-    width: 45%;
-    top: 137%;
-    padding: 10px;
-    position: absolute;
-  }
-  .navbar .container {
-    position: relative;
-  }
-  .collapse_menu .navbar-nav {
-    display: flex;
-    flex-direction: row;
-  }
 }
 
 @media screen and (min-width: 998px) and (max-width: 1126px) {
