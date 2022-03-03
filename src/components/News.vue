@@ -121,24 +121,32 @@
       </div>
       <!-- DEVICES SECTION -->
       <div class="news_devices__box">
-        <div class="row">
-          <div class="col-xl-6">
-            <h4>Проект состоит из трех основных компонентов</h4>
-            <p>
-              Рамках Компонента 1 и Компонента 2 будут разработаны, в
-              соответствии с международными стандартами, и реализованы 5
-              грантовых программ. Кроме того, в проекте есть Компонент 3 для
-              комплексной технической помощи для всех секторов (правительство,
-              университеты и бизнес) посредством консультирования, наращивания
-              потенциала.
-            </p>
-            <div class="row">
-              <a href="#" class="btn btn-outline-primary mr-2">Подробнее</a
-              ><a href="#" class="btn btn-primary">Вход в программу</a>
+        <div class="news_devices_box_row">
+          <div class="row">
+            <div class="col-xl-6">
+              <h4>Проект состоит из трех основных компонентов</h4>
+              <p>
+                Рамках Компонента 1 и Компонента 2 будут разработаны, в
+                соответствии с международными стандартами, и реализованы 5
+                грантовых программ. Кроме того, в проекте есть Компонент 3 для
+                комплексной технической помощи для всех секторов (правительство,
+                университеты и бизнес) посредством консультирования, наращивания
+                потенциала.
+              </p>
+              <div class="row">
+                <button href="#" class="btn btn-outline-primary">
+                  Подробнее
+                </button>
+                <button href="#" class="btn btn-primary">
+                  Вход в программу
+                </button>
+              </div>
             </div>
-          </div>
-          <div class="col-xl-6">
-            <img src="./../../public/images/News/devices.png" alt="" />
+            <div class="col-xl-6">
+              <div class="news_devices_box_row_col">
+                <img src="./../../public/images/News/devices.png" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -11,6 +11,7 @@
   position: absolute !important;
   background: aliceblue;
   padding: 0;
+  margin-top: 10px;
 }
 .nav-item.dropdown a:focus {
   color: #fff !important;
@@ -18,9 +19,6 @@
 .navbar__section {
   position: absolute;
   width: 100%;
-}
-.container {
-  max-width: 1060px;
 }
 .nav-link.i i {
   font-weight: bold;
@@ -35,6 +33,9 @@
   display: flex;
   align-items: center;
   width: 25%;
+}
+.navbar-toggler {
+  color: #fff;
 }
 .navbar-brand img {
   width: 65%;
@@ -241,8 +242,7 @@
 /* News Section  */
 .news__section {
   min-height: 40vh;
-  padding: 45px 0 30px;
-  margin: 0 0 60px;
+  padding: 45px 0 0px;
 }
 .news__head {
   display: flex;
@@ -321,8 +321,8 @@
 .news__pacet__statuses div small {
   font-size: 11px;
 }
-.news_devices__box .row {
-  margin-top: 40px;
+.news_devices_box_row {
+  margin: 6% 0;
 }
 .news__devices_boxes {
   margin: 100px 0;
@@ -336,13 +336,17 @@
   margin-bottom: 20px;
 }
 .news_devices__box .row .col-xl-6 .row {
-  justify-content: start;
+  margin: 0;
 }
-.news_devices__box .row .col-xl-6 .row > * {
-  width: 40%;
-  margin-right: 10px;
+.news_devices__box .row .col-xl-6 .row button {
+  margin-right: 1%;
+  width: 30%;
 }
-
+.news_devices_box_row_col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* Question Section  */
 
 .questions__section {
@@ -578,13 +582,34 @@
 }
 
 /**************************** Site Responsive Parts! ***********************************/
-.navbar-toggler {
-  color: #fff;
-}
 
-@media screen and (max-width: 998px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 900px !important;
+  }
   .navbar .container {
-    padding: 0 40px;
+    padding: 0;
+  }
+  .news__pacet__statuses div .row p {
+    font-size: 11px;
+  }
+  .news__pacet__statuses div small {
+    font-size: 9px;
+  }
+  .news__pacet__date {
+    width: 72%;
+  }
+  .news_devices_box_row .row:first-child {
+    margin-bottom: 20px;
+  }
+  .question_text__box .row .col-xl-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+  }
+  .footer_menu__link {
+    font-size: 17px;
   }
 }
 @media screen and (max-width: 990px) {
