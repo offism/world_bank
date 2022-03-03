@@ -2,6 +2,10 @@
 body {
   font-family: "Inter", serif;
 }
+::selection {
+  background-color: #0a4d80;
+  color: #f8586b;
+}
 .header {
   display: flex;
   align-items: center;
@@ -562,6 +566,7 @@ body {
 }
 .footer-wrapper .row .col-3 form button {
   margin: 10px 0 20px;
+  width: 100%;
   color: #05278d;
   background-color: #fff;
   transition: 0.2s ease all;
@@ -633,9 +638,17 @@ body {
   .footer_menu__link {
     font-size: 17px;
   }
+  .dropdown-menu[data-bs-popper] {
+    top: 120%;
+    left: 0;
+    margin-top: 0.125rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
   .vxod_btn {
     font-size: 12px;
   }
@@ -711,16 +724,24 @@ body {
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
   .collapse_menu {
     justify-content: space-between;
     background-color: gray;
     right: 10%;
     display: flex;
     align-items: center;
-    width: 45%;
+    width: 50%;
     top: 104%;
     padding: 10px;
     position: absolute;
+  }
+  .dropdown-menu[data-bs-popper] {
+    top: 120%;
+    left: 0;
+    margin-top: 0.125rem;
   }
   .navbar__section .navbar .container form {
     width: 60%;
@@ -903,6 +924,15 @@ body {
   .footer_menu__links {
     font-size: 14px;
   }
+  .news_devices__box .row .col-xl-6 .row button {
+    width: 22%;
+    font-size: 10px;
+  }
+  .footer-wrapper .row .col-3 form button {
+    margin: 3px 0 7px;
+    font-size: 11px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -965,7 +995,7 @@ body {
     font-size: 14px;
   }
   .dropdown-menu[data-bs-popper] {
-    top: 97%;
+    top: 95%;
   }
   .modernitation__header .row .col-4 h4 {
     font-size: 19px;
