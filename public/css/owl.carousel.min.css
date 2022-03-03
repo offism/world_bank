@@ -64,6 +64,16 @@
     right: 4%;
   }
 }
+@media screen and (max-width: 576px) {
+  .owl-next {
+    top: -26%;
+    right: 0%;
+  }
+  .owl-prev {
+    top: -26%;
+    right: 4%;
+  }
+}
 /* ******************************MY CODES END******* */
 
 .owl-carousel,
