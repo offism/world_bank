@@ -7,6 +7,14 @@
   z-index: 2;
   box-shadow: 0px -1px 8.4px #ababb3;
 }
+.dropdown-menu {
+  position: absolute !important;
+  background: aliceblue;
+  padding: 0;
+}
+.nav-item.dropdown a:focus {
+  color: #fff !important;
+}
 .navbar__section {
   position: absolute;
   width: 100%;
