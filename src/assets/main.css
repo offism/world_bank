@@ -634,6 +634,13 @@ body {
   .vxod_btn {
     font-size: 12px;
   }
+  .text__part {
+    margin-bottom: 2%;
+  }
+  .slide__date {
+    font-size: 14px;
+    margin-bottom: 3%;
+  }
   .slide__texture {
     font-size: 11px;
   }
@@ -695,4 +702,206 @@ body {
   .footer_menu__link {
     font-size: 14px;
   }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .collapse_menu {
+    background-color: gray;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    width: 45%;
+    top: 104%;
+    padding: 10px;
+    position: absolute;
+  }
+  .banner_wrapper {
+    height: 100vh;
+  }
+  .text__part {
+    margin-bottom: 3%;
+  }
+  .navbar-nav {
+    flex-direction: revert;
+  }
+  .vxod_btn {
+    font-size: 13px;
+  }
+  .text__part h2 {
+    font-size: 20px;
+  }
+  .home-demo {
+    position: relative;
+    padding: 0 10px 0 0;
+    width: 100%;
+  }
+  .item.active {
+    display: flex;
+    text-align: left;
+    margin-right: 0px;
+    align-items: start;
+  }
+  .item h4 {
+    font-size: 14px;
+    margin-bottom: 2%;
+  }
+  .item small {
+    font-size: 10px;
+  }
+  .modernitation__header .row .col-4 h4 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .modernitation__header .row .col-4 p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .modernitation__body .row .col-6 h5 {
+    font-size: 14px;
+    margin-bottom: 6%;
+  }
+  .modernitation__body .row .col-6 p {
+    font-size: 9px;
+  }
+  .news__head h2 {
+    font-size: 20px;
+  }
+  .news__head a,
+  .news__head h2 {
+    width: 19%;
+    font-size: 11px;
+    padding-right: 0;
+  }
+  .news__pacet__statuses div h5 {
+    font-size: 10px;
+  }
+  .news__pacet__statuses div .row > * {
+    width: 50%;
+  }
+  .news__pacet__statuses div .row p {
+    font-size: 5px;
+  }
+  .news__pacet__statuses div small {
+    font-size: 5px;
+    padding: 0;
+  }
+  .news__pacet__statuses div > hr {
+    margin: 4px 0;
+  }
+  .news__section {
+    min-height: 40vh;
+    padding: 30px 0 0px;
+  }
+  .news__row_with__height {
+    display: flex;
+    align-items: center;
+    height: 22px;
+    padding: 0;
+    margin: 3px 0;
+  }
+  .news__pacet__date {
+    font-size: 7px;
+  }
+  .news__pacet__views {
+    font-size: 7px;
+  }
+  .news__pacet h4 {
+    font-size: 10px;
+  }
+  .news__pacet__text {
+    font-size: 8px;
+  }
+  .news_devices__box .row .col-xl-6 h4 {
+    margin: 12px 0;
+    font-size: 20px;
+  }
+  .news_devices__box .row .col-xl-6 p {
+    font-size: 16px;
+  }
+  .news_devices__box .row .col-xl-6 .row button {
+    width: 33%;
+  }
+  .question_text__box h3 {
+    font-size: 20px;
+  }
+  .map__wrapper h3 {
+    font-weight: 700;
+    margin-bottom: 29px;
+    font-size: 20px;
+  }
+  .map__title {
+    margin: 10px 0;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .questions__section {
+    min-height: 50vh;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+  .map__section {
+    margin: 20px 0 0;
+  }
+  .question_text__box .row .col-xl-4 {
+    margin-top: 25px;
+  }
+  .usage_slider__section {
+    min-height: 10vh;
+    margin: 30px 0;
+  }
+  .usage_slider__slide p {
+    font-size: 13px;
+  }
+  /*
+  
+  .news__pacet__date {
+    font-size: 10px;
+    width: 74%;
+  }
+  .news__pacet__views {
+    font-size: 10px;
+  }
+  .news__pacet__statuses div small {
+    font-size: 5px;
+  }
+  .home-demo {
+    padding: 0;
+    width: 100%;
+  }
+  .collapse_menu {
+    background-color: gray;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    width: 45%;
+    top: 162%;
+    padding: 10px;
+    position: absolute;
+  }
+  .navbar .container {
+    position: relative;
+  }
+  .collapse_menu .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .news__pacet__statuses div .row p {
+    font-size: 8px;
+  }
+  .news__pacet h4 {
+    font-size: 12px;
+  }
+  .news__pacet__statuses div h5 {
+    font-size: 13px;
+  }
+  .news_devices__box .row .col-xl-6 p {
+    font-size: 15px;
+  }
+  .question_text__box .row .col-xl-4 {
+    margin-top: 5%;
+  }
+  .footer_menu__link {
+    font-size: 14px;
+  } */
 }

@@ -51,7 +51,17 @@
   }
   .owl-prev {
     top: -23%;
-    right: 3%;
+    right: 4%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .owl-next {
+    top: -25%;
+    right: 0%;
+  }
+  .owl-prev {
+    top: -25%;
+    right: 4%;
   }
 }
 /* ******************************MY CODES END******* */
