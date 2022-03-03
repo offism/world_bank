@@ -26,18 +26,33 @@
   background-color: transparent !important;
   transform: scale(1.4);
 }
-/* .owl-item.active + .owl-item.active {
-    margin-right: 0 !important;
-} */
-/* .owl-item.active:nth-child(2n) {
-    margin-right: 0 !important;
-} */
 .owl-item.active:nth-child(3n) .item {
   border-right: none;
 }
 .owl-item.active .item {
   padding-top: 10px;
   padding-left: 15px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .owl-next {
+    top: -30%;
+    right: 0%;
+  }
+  .owl-prev {
+    top: -30%;
+    right: 3%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .owl-next {
+    top: -23%;
+    right: 0%;
+  }
+  .owl-prev {
+    top: -23%;
+    right: 3%;
+  }
 }
 /* ******************************MY CODES END******* */
 

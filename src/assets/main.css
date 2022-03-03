@@ -612,6 +612,41 @@
     font-size: 17px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .vxod_btn {
+    font-size: 13px;
+  }
+  .home-demo {
+    padding: 0;
+    width: 100%;
+  }
+  /* .navbar .container {
+    padding: 0;
+  }
+  .news__pacet__statuses div .row p {
+    font-size: 11px;
+  }
+  .news__pacet__statuses div small {
+    font-size: 9px;
+  }
+  .news__pacet__date {
+    width: 72%;
+  }
+  .news_devices_box_row .row:first-child {
+    margin-bottom: 20px;
+  }
+  .question_text__box .row .col-xl-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+  }
+  .footer_menu__link {
+    font-size: 17px;
+  } */
+}
+
 @media screen and (max-width: 990px) {
   .collapse_menu {
     background-color: gray;
