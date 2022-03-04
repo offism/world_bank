@@ -303,13 +303,8 @@ body {
 .news__pacet__views {
   margin-left: 1%;
 }
-.news__row_with__height span {
-  width: 10%;
-  padding-right: 0;
-  padding-left: 0;
-  padding-top: 1px;
-  font-size: 14px;
-  margin-top: 2px;
+.news__section .col-lg-4 {
+  margin-bottom: 5%;
 }
 .news__pacet__statuses {
   display: flex;
@@ -317,6 +312,7 @@ body {
 }
 .news__pacet__statuses div h5 {
   font-size: 15px;
+  font-weight: 700;
 }
 .news__pacet__statuses div .row {
   align-items: center;
@@ -661,6 +657,7 @@ body {
   }
   .news__pacet__statuses div h5 {
     font-size: 16px;
+    font-weight: 700;
   }
   .news__pacet__statuses {
     flex-direction: row;
@@ -838,9 +835,8 @@ body {
     font-size: 14px;
     font-weight: 500;
   }
-  .modernitation__body .row .col-6 h5 {
-    font-size: 14px;
-    margin-bottom: 6%;
+  .modernitation__body .row .col-lg-6 {
+    margin-bottom: 8%;
   }
   .modernitation__body .row .col-lg-6 h5 {
     font-weight: 700;
@@ -860,21 +856,16 @@ body {
     padding-right: 0;
     margin: 0;
   }
-  .news__pacet__statuses div h5 {
-    font-size: 10px;
+  .news__pacet__statuses .row {
+    width: 100%;
+    margin: 0;
   }
-  .news__pacet__statuses div .row > * {
-    width: 50%;
+  .news__pacet__statuses .col-lg-6 .row h5 {
+    font-weight: 700;
   }
-  .news__pacet__statuses div .row p {
-    font-size: 5px;
-  }
-  .news__pacet__statuses div small {
-    font-size: 5px;
-    padding: 0;
-  }
-  .news__pacet__statuses div > hr {
-    margin: 4px 0;
+  .news__pacet__statuses .row small {
+    text-align: right;
+    padding-right: 0;
   }
   .news__section {
     min-height: 40vh;
@@ -887,17 +878,16 @@ body {
     padding: 0;
     margin: 3px 0;
   }
-  .news__pacet__date {
-    font-size: 7px;
-  }
   .news__pacet__views {
-    font-size: 7px;
+    font-size: 14px;
+    margin: 0;
   }
   .news__pacet h4 {
-    font-size: 10px;
+    font-size: 16px;
+    font-weight: 700;
   }
   .news__pacet__text {
-    font-size: 8px;
+    font-size: 12px;
   }
   .news_devices__box .row .col-xl-6 h4 {
     margin: 12px 0;
@@ -1097,6 +1087,7 @@ body {
   }
   .news__pacet__statuses div h5 {
     font-size: 10px;
+    font-weight: 700;
   }
   .news__pacet__statuses div .row p {
     margin-bottom: 0;
