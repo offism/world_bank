@@ -136,9 +136,23 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-.item h4 {
-  font-size: 20px;
+.mainpage_slider {
+  width: 100%;
+  margin-right: 0;
 }
+.mainpage_slide p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.mainpage_slide h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.mainpage_slide small {
+  font-size: 10px;
+  font-weight: 500;
+}
+
 .text__part {
   display: flex;
   flex-direction: column;
@@ -153,31 +167,6 @@ body {
 .text__part button:hover {
   color: #fff;
   background-color: #2282cc;
-}
-.main__slider {
-  display: flex;
-  align-items: center;
-  padding: 30px 0;
-}
-.slide__part {
-  width: 32%;
-  height: 30%;
-}
-.slide__part + .slide__part {
-  margin-left: 45px;
-}
-.home-demo {
-  position: relative;
-  padding: 0 40px 0 25px;
-  width: 106%;
-}
-.home-demo h2 {
-  color: #fff;
-  text-align: center;
-  padding: 5rem 0;
-  margin: 0;
-  font-style: italic;
-  font-weight: 300;
 }
 
 /* Modernitation Section  */
@@ -614,6 +603,9 @@ body {
   .container {
     width: 900px !important;
   }
+  .banner_wrapper {
+    height: 100vh;
+  }
   .navbar .container {
     padding: 0;
   }
@@ -649,22 +641,16 @@ body {
   body {
     overflow-x: hidden;
   }
+  .banner_wrapper {
+    height: 100vh;
+  }
   .vxod_btn {
     font-size: 12px;
   }
   .text__part {
     margin-bottom: 2%;
   }
-  .slide__date {
-    font-size: 14px;
-    margin-bottom: 3%;
-  }
-  .slide__texture {
-    font-size: 11px;
-  }
-  .item h4 {
-    font-size: 19px;
-  }
+
   .modernitation__body .row .col-6 h5 {
     font-size: 15px;
   }
@@ -681,10 +667,7 @@ body {
   .news__pacet__statuses div small {
     font-size: 5px;
   }
-  .home-demo {
-    padding: 0;
-    width: 100%;
-  }
+
   .collapse_menu {
     justify-content: space-between;
     background-color: gray;
@@ -761,24 +744,7 @@ body {
   .text__part h2 {
     font-size: 20px;
   }
-  .home-demo {
-    position: relative;
-    padding: 0 10px 0 0;
-    width: 100%;
-  }
-  .item.active {
-    display: flex;
-    text-align: left;
-    margin-right: 0px;
-    align-items: start;
-  }
-  .item h4 {
-    font-size: 14px;
-    margin-bottom: 2%;
-  }
-  .item small {
-    font-size: 10px;
-  }
+
   .modernitation__header .row .col-4 h4 {
     font-size: 16px;
     font-weight: 700;
@@ -972,24 +938,7 @@ body {
   .vxod_btn {
     font-size: 7px;
   }
-  .slide__date {
-    font-size: 14px;
-  }
-  .item h4 {
-    font-size: 11px;
-  }
-  .item small {
-    font-size: 10px;
-  }
-  .home-demo {
-    position: relative;
-    width: 102%;
-    padding: 0;
-  }
-  .owl-item.active .item {
-    padding-top: 0;
-    padding-left: 0;
-  }
+
   .text__part button {
     margin: 25px 0;
     font-size: 14px;
@@ -1178,17 +1127,4 @@ body {
     margin: 7px 0 8px;
     font-size: 10px;
   }
-  /* 
-  
-  
-  
-  .footer_attention_social__item {
-    margin-right: 12px;
-    font-size: 19px;
-  }
-  .footer_menu__link {
-    font-size: 10px;
-    margin-bottom: 0px;
-  }
-  */
 }
