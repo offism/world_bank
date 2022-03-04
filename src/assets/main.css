@@ -688,11 +688,14 @@ body {
   .text__part {
     margin-bottom: 2%;
   }
-
-  .modernitation__body .row .col-6 h5 {
-    font-size: 15px;
+  .modernitation__body .row .col-lg-6:nth-child(1) {
+    margin-bottom: 10%;
   }
-  .modernitation__body .row .col-6 p {
+  .modernitation__body .row .col-lg-6 h5 {
+    font-size: 15px;
+    margin-bottom: 2%;
+  }
+  .modernitation__body .row .col-lg-6 p {
     font-size: 13px;
   }
   .news__pacet__date {
@@ -702,8 +705,22 @@ body {
   .news__pacet__views {
     font-size: 10px;
   }
-  .news__pacet__statuses div small {
-    font-size: 5px;
+  .news__pacet__statuses div h5 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .news__pacet__statuses .col-lg-6 {
+    margin-top: 1%;
+  }
+  .news__pacet__statuses .col-lg-6 .row {
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+  }
+  .news__pacet__statuses .col-lg-6 .row small {
+    font-size: 7px;
+    text-align: right;
+    padding-right: 0;
   }
 
   .collapse_menu {
@@ -735,9 +752,6 @@ body {
   }
   .news__pacet h4 {
     font-size: 12px;
-  }
-  .news__pacet__statuses div h5 {
-    font-size: 13px;
   }
   .news_devices__box .row .col-xl-6 p {
     font-size: 15px;
@@ -818,8 +832,13 @@ body {
     font-size: 14px;
     margin-bottom: 6%;
   }
-  .modernitation__body .row .col-6 p {
-    font-size: 9px;
+  .modernitation__body .row .col-lg-6 h5 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 3%;
+  }
+  .modernitation__body .row .col-lg-6 p {
+    font-size: 12px;
   }
   .news__head h2 {
     font-size: 20px;
@@ -848,7 +867,7 @@ body {
   }
   .news__section {
     min-height: 40vh;
-    padding: 30px 0 0px;
+    padding: 10px 0 0px;
   }
   .news__row_with__height {
     display: flex;
@@ -1025,6 +1044,9 @@ body {
   .modernitation_pacet__img {
     margin: 4% auto;
   }
+  .modernitation__header {
+    margin: 30px 0;
+  }
   .modernitation__header .row .col-lg-4 h4 {
     font-size: 19px;
   }
@@ -1035,10 +1057,10 @@ body {
   .modernitation__section {
     padding: 0;
   }
-  .modernitation__body .row .col-xl-6 h5 {
+  .modernitation__body .row .col-lg-6 h5 {
     font-weight: 700;
-    margin-bottom: 5%;
-    font-size: 14px;
+    margin-bottom: 3%;
+    font-size: 18px;
   }
   .modernitation__body .row .col-xl-6 p {
     font-size: 9px;
