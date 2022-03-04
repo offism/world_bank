@@ -3,8 +3,8 @@
     <div class="container">
       <div class="modernitation__header">
         <div class="row">
-          <div class="col-xl-4 col-sm-6 text-sm-center">
-            <div class="modernitation_pacet__img pl-0 mx-sm-auto">
+          <div class="col-lg-4 col-sm-6">
+            <div class="modernitation_pacet__img pl-0">
               <div class="modernitation_pacet_box__img">
                 <img src="./../../public/images/Pacets/pacet_img3.png" alt="" />
               </div>
@@ -15,8 +15,8 @@
               отвечающих за записи и информацию
             </p>
           </div>
-          <div class="col-xl-4 col-sm-6 text-sm-center">
-            <div class="modernitation_pacet__img mx-sm-auto">
+          <div class="col-lg-4 col-sm-6">
+            <div class="modernitation_pacet__img">
               <div class="modernitation_pacet_box__img">
                 <img src="./../../public/images/Pacets/pacet_img2.png" alt="" />
               </div>
@@ -24,8 +24,8 @@
             <h4>Международном экспертном совете</h4>
             <p>У нас есть международная команда экспертов</p>
           </div>
-          <div class="col-xl-4 mx-sm-auto col-sm-6 text-sm-center pr-0">
-            <div class="modernitation_pacet__img mx-sm-auto">
+          <div class="col-lg-4 mx-sm-auto col-sm-6 pr-0">
+            <div class="modernitation_pacet__img">
               <div class="modernitation_pacet_box__img">
                 <img src="./../../public/images/Pacets/pacet_img.png" alt="" />
               </div>
@@ -40,7 +40,7 @@
       </div>
       <div class="modernitation__body">
         <div class="row align-items-center justify-content-center">
-          <div class="col-6">
+          <div class="col-xl-6">
             <h5>МОДЕРНИЗАЦИЯ НАЦИОНАЛЬНОЙ ИННОВАЦИОННОЙ СИСТЕМЫ УЗБЕКИСТАНА</h5>
             <p>
               28 октября 2020 года Совет директоров Всемирного банка одобрил
@@ -51,7 +51,7 @@
             </p>
             <button class="btn">Подробнее</button>
           </div>
-          <div class="col-6">
+          <div class="col-xl-6">
             <div class="modern_img__box">
               <img src="./../../public/images/Pacets/modern_place.png" alt="" />
             </div>

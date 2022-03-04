@@ -642,6 +642,12 @@ body {
     left: 0;
     margin-top: 0.125rem;
   }
+  .modernitation__header .row .col-lg-4 {
+    text-align: left;
+  }
+  .modernitation_pacet__img {
+    margin-left: 0 !important;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -692,6 +698,12 @@ body {
   .collapse_menu .navbar-nav {
     display: flex;
     flex-direction: row;
+  }
+  .modernitation_pacet__img {
+    margin: 5% auto;
+  }
+  .modernitation__header .row .col-lg-4 {
+    text-align: center;
   }
   .news__pacet__statuses div .row p {
     font-size: 8px;
@@ -758,6 +770,12 @@ body {
   }
   .text__part h2 {
     font-size: 20px;
+  }
+  .modernitation_pacet__img {
+    margin: 5% auto;
+  }
+  .modernitation__header .row .col-lg-4 {
+    text-align: center;
   }
 
   .modernitation__header .row .col-4 h4 {
@@ -969,25 +987,32 @@ body {
   .dropdown-menu[data-bs-popper] {
     top: 95%;
   }
-  .modernitation__header .row .col-4 h4 {
+  .modernitation__header .row .col-lg-4 {
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  .modernitation_pacet__img {
+    margin: 4% auto;
+  }
+  .modernitation__header .row .col-lg-4 h4 {
     font-size: 19px;
   }
-  .modernitation__header .row .col-4 p {
+  .modernitation__header .row .col-lg-4 p {
     font-size: 14px;
     margin-bottom: 0;
   }
   .modernitation__section {
     padding: 0;
   }
-  .modernitation__body .row .col-6 h5 {
+  .modernitation__body .row .col-xl-6 h5 {
     font-weight: 700;
     margin-bottom: 5%;
     font-size: 14px;
   }
-  .modernitation__body .row .col-6 p {
+  .modernitation__body .row .col-xl-6 p {
     font-size: 9px;
   }
-  .modernitation__body .row .col-6 button {
+  .modernitation__body .row .col-xl-6 button {
     font-size: 12px;
     margin: 0px 0;
   }
