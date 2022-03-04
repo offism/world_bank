@@ -17,7 +17,8 @@
             <div class="row mt-1">
               <div class="news__row_with__height">
                 <small class="news__pacet__date"
-                  >8 сентября 2021, 15:20 |</small
+                  ><i class="lnr lnr-calendar-full"></i> 8 сентября 2021,
+                  <i class="lnr lnr-history"></i> 15:20 |</small
                 >
                 <small class="news__pacet__views"
                   >10 <i class="lnr lnr-eye"></i
@@ -38,8 +39,9 @@
             <img src="./../../public/images/News/img2.png" alt="Img" />
             <div class="row mt-1">
               <div class="news__row_with__height">
-                <small class="news__pacet__date"
-                  >8 сентября 2021, 15:20 |</small
+                <small class="news__pacet__date md_style__date"
+                  ><i class="lnr lnr-calendar-full"></i> 8 сентября 2021,
+                  <i class="lnr lnr-history"></i> 5:20 |</small
                 >
                 <small class="news__pacet__views"
                   >10 <i class="lnr lnr-eye"></i
@@ -60,8 +62,9 @@
             <img src="./../../public/images/News/img.png" alt="Img" />
             <div class="row mt-1">
               <div class="news__row_with__height">
-                <small class="news__pacet__date"
-                  >8 сентября 2021, 15:20 |</small
+                <small class="news__pacet__date md_style__date"
+                  ><i class="lnr lnr-calendar-full"></i> 8 сентября 2021,
+                  <i class="lnr lnr-history"></i> 15:20 |</small
                 >
                 <small class="news__pacet__views"
                   >10 <i class="lnr lnr-eye"></i
