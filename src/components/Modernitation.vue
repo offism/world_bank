@@ -3,7 +3,7 @@
     <div class="container">
       <div class="modernitation__header">
         <div class="row">
-          <div class="col-4">
+          <div class="col-xl-4 col-sm-6">
             <div class="modernitation_pacet__img pl-0">
               <div class="modernitation_pacet_box__img">
                 <img src="./../../public/images/Pacets/pacet_img3.png" alt="" />
@@ -15,7 +15,7 @@
               отвечающих за записи и информацию
             </p>
           </div>
-          <div class="col-4">
+          <div class="col-xl-4 col-sm-6">
             <div class="modernitation_pacet__img">
               <div class="modernitation_pacet_box__img">
                 <img src="./../../public/images/Pacets/pacet_img2.png" alt="" />
@@ -24,8 +24,8 @@
             <h4>Международном экспертном совете</h4>
             <p>У нас есть международная команда экспертов</p>
           </div>
-          <div class="col-4 pr-0">
-            <div class="modernitation_pacet__img">
+          <div class="col-xl-4 mx-sm-auto col-sm-6 text-sm-center pr-0">
+            <div class="modernitation_pacet__img mx-sm-auto">
               <div class="modernitation_pacet_box__img">
                 <img src="./../../public/images/Pacets/pacet_img.png" alt="" />
               </div>

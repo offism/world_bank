@@ -145,14 +145,21 @@ body {
   font-weight: 500;
 }
 .mainpage_slide h4 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
 }
 .mainpage_slide small {
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 500;
 }
-
+.slick-next {
+  right: 0;
+  top: -10%;
+}
+.slick-prev {
+  left: 95%;
+  top: -10%;
+}
 .text__part {
   display: flex;
   flex-direction: column;
@@ -704,6 +711,14 @@ body {
   .footer_menu__link {
     font-size: 14px;
   }
+  .slick-next {
+    right: 0;
+    top: -10%;
+  }
+  .slick-prev {
+    left: 94%;
+    top: -10%;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -898,6 +913,14 @@ body {
     margin: 3px 0 7px;
     font-size: 11px;
     width: 100%;
+  }
+  .slick-next {
+    right: 0;
+    top: -10%;
+  }
+  .slick-prev {
+    left: 91%;
+    top: -10%;
   }
 }
 
@@ -1126,5 +1149,13 @@ body {
   .footer-wrapper .row .col-3 form button {
     margin: 7px 0 8px;
     font-size: 10px;
+  }
+  .slick-next {
+    right: 0;
+    top: -10%;
+  }
+  .slick-prev {
+    left: 90%;
+    top: -10%;
   }
 }

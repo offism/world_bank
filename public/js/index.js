@@ -12,9 +12,9 @@ $(function() {
 //main page slider
 $(function() {
   $('.mainpage_slider').slick({
-    dots: true,
+    dots: false,
     infinite: false,
-    speed: 200,
+    speed: 400,
     slidesToShow: 4,
     slidesToScroll: 4,
     responsive: [
