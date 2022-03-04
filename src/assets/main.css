@@ -835,7 +835,7 @@ body {
     font-size: 14px;
     font-weight: 500;
   }
-  .modernitation__body .row .col-lg-6 {
+  .modernitation__body .row .col-lg-6:nth-child(1) {
     margin-bottom: 8%;
   }
   .modernitation__body .row .col-lg-6 h5 {
@@ -1038,6 +1038,9 @@ body {
   .text__part button {
     width: 22%;
   }
+  .modernitation__body .row .col-lg-6 {
+    margin-bottom: 8%;
+  }
   .modernitation__header .row .col-lg-4 {
     text-align: center;
     margin-bottom: 10%;
@@ -1072,7 +1075,7 @@ body {
   }
   .news__section {
     min-height: 40vh;
-    padding: 35px 0 0px;
+    padding: 0px;
   }
   .news__head h2 {
     font-weight: 700;
@@ -1086,16 +1089,22 @@ body {
     padding: 7px 0;
   }
   .news__pacet__statuses div h5 {
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 700;
+  }
+  .news__pacet__statuses div .row {
+    width: 100%;
+    margin: 0;
   }
   .news__pacet__statuses div .row p {
     margin-bottom: 0;
     padding-left: 0;
-    font-size: 5px;
+    font-size: 11px;
   }
   .news__pacet__statuses div small {
-    font-size: 3px;
+    font-size: 11px;
+    text-align: right;
+    padding-right: 0;
   }
   .news__row_with__height {
     display: flex;
@@ -1104,14 +1113,19 @@ body {
     padding: 0;
     margin: 5px 0;
   }
+  .news__section .col-lg-4 {
+    margin-bottom: 3%;
+  }
   .news__row_with__height small {
-    font-size: 7px;
+    font-size: 12px;
+    margin-top: 1%;
   }
   .news__pacet h4 {
-    font-size: 10px;
+    font-size: 14px;
+    margin: 1% 0;
   }
   .news__pacet__text {
-    font-size: 9px;
+    font-size: 11px;
     margin-bottom: 0;
   }
   .news_devices_box_row {
