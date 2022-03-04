@@ -11,7 +11,7 @@
         >
       </div>
       <div class="row">
-        <div class="col-3">
+        <div class="col-xl-3 col-lg-4">
           <div class="news__pacet">
             <img src="./../../public/images/News/img1.png" alt="Img" />
             <div class="row mt-1">
@@ -33,7 +33,7 @@
             <small class="news__pacet__hashtag">#инновации</small>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
           <div class="news__pacet">
             <img src="./../../public/images/News/img2.png" alt="Img" />
             <div class="row mt-1">
@@ -55,7 +55,7 @@
             <small class="news__pacet__hashtag">#инновации</small>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
           <div class="news__pacet">
             <img src="./../../public/images/News/img.png" alt="Img" />
             <div class="row mt-1">
@@ -77,44 +77,43 @@
             <small class="news__pacet__hashtag">#инновации</small>
           </div>
         </div>
-        <div class="col-3">
-          <div class="news__pacet">
-            <div class="news__pacet__statuses">
-              <div>
-                <h5 class="news__pacet_status__text">
-                  Bank of Baroda снизил ставки по жилищным кредитам до 6,5%
-                </h5>
-                <div class="row">
-                  <p>8 сентября 2021</p>
-                  <small>#состоянии проекта</small>
-                </div>
-                <hr />
+        <div class="col-xl-3 col-lg-12">
+          <div class="news__pacet__statuses row">
+            <div class="col-lg-6">
+              <h5 class="news__pacet_status__text">
+                Bank of Baroda снизил ставки по жилищным кредитам до 6,5%
+              </h5>
+              <div class="row">
+                <p>8 сентября 2021</p>
+                <small>#Инновация</small>
               </div>
-              <div>
-                <h5 class="news__pacet_status__text">
-                  Один из столичных районов преобразуют в инновационную...
-                </h5>
-                <div class="row">
-                  <p>8 сентября 2021</p>
-                  <small>#состоянии проекта</small>
-                </div>
-                <hr />
+              <hr />
+            </div>
+            <div class="col-lg-6">
+              <h5 class="news__pacet_status__text">
+                Один из столичных районов преобразуют в инновационную...
+              </h5>
+              <div class="row">
+                <p>8 сентября 2021</p>
+                <small>#Инновация</small>
               </div>
-              <div>
-                <h5>Мининноваций реализует 25 инвестпроектов на сумму...</h5>
-                <div class="row">
-                  <p>8 сентября 2021</p>
-                  <small>#состоянии проекта</small>
-                </div>
-                <hr />
+              <hr />
+            </div>
+            <div class="col-lg-6">
+              <h5>Мининноваций реализует 25 инвестпроектов на сумму...</h5>
+              <div class="row">
+                <p>8 сентября 2021</p>
+                <small>#Наука</small>
               </div>
-              <div>
-                <h5>В Нукусе состоялась межотраслевая промышленная...</h5>
-                <div class="row">
-                  <p>8 сентября 2021</p>
-                  <small>#состоянии проекта</small>
-                </div>
+              <hr />
+            </div>
+            <div class="col-lg-6">
+              <h5>В Нукусе состоялась межотраслевая промышленная...</h5>
+              <div class="row">
+                <p>8 сентября 2021</p>
+                <small>#Наука</small>
               </div>
+              <hr />
             </div>
           </div>
         </div>

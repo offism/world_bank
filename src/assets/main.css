@@ -266,7 +266,9 @@ body {
 .news__head h2 {
   width: 20%;
 }
-
+.news__head a {
+  text-align: right;
+}
 .news__head h2 {
   font-weight: 700;
   margin-bottom: 3%;
@@ -610,6 +612,9 @@ body {
   .container {
     width: 900px !important;
   }
+  .news__section {
+    padding: 0px 0 0px;
+  }
   .banner_wrapper {
     height: 100vh;
   }
@@ -650,6 +655,23 @@ body {
   }
   .modernitation_pacet__img {
     margin-left: 0 !important;
+  }
+  .news__pacet__statuses div h5 {
+    font-size: 16px;
+  }
+  .news__pacet__statuses {
+    flex-direction: row;
+  }
+  .news__pacet__statuses .col-lg-6:nth-child(2n) {
+    padding-left: 1%;
+  }
+  .news__pacet__statuses .col-lg-6 {
+    padding: 0;
+    margin-top: 1%;
+  }
+  .news__pacet__statuses .col-lg-6 .row {
+    width: 100%;
+    margin: 0;
   }
 }
 
