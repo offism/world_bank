@@ -82,7 +82,7 @@
         </div>
         <div class="col-xl-3 col-lg-12">
           <div class="news__pacet__statuses row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-xl-12">
               <h5 class="news__pacet_status__text">
                 Bank of Baroda снизил ставки по жилищным кредитам до 6,5%
               </h5>
@@ -92,7 +92,7 @@
               </div>
               <hr />
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-xl-12">
               <h5 class="news__pacet_status__text">
                 Один из столичных районов преобразуют в инновационную...
               </h5>
@@ -102,7 +102,7 @@
               </div>
               <hr />
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-xl-12">
               <h5>Мининноваций реализует 25 инвестпроектов на сумму...</h5>
               <div class="row">
                 <p>8 сентября 2021</p>
@@ -110,7 +110,7 @@
               </div>
               <hr />
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-xl-12">
               <h5>В Нукусе состоялась межотраслевая промышленная...</h5>
               <div class="row">
                 <p>8 сентября 2021</p>
