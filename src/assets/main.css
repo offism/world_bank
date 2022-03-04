@@ -1217,12 +1217,21 @@ body {
   .footer-wrapper .row .col-sm-3.d-sm-n {
     display: none;
   }
+  .footer-wrapper .row .col-sm-4 img {
+    width: 60%;
+  }
   .footer-wrapper .row .col-sm-4 p {
-    font-size: 11px;
+    font-size: 14px;
     margin-bottom: 8px;
+    font-weight: 600;
   }
   .footer-wrapper .row .col-sm-4 {
     padding: 0 14px;
+    text-align: center;
+  }
+  .footer-wrapper ul {
+    justify-content: center;
+    margin-bottom: 0;
   }
   .footer_attention_social__item {
     margin-right: 12px;
@@ -1244,13 +1253,15 @@ body {
   }
   .footer-wrapper .row .col-sm-3 form {
     padding: 0;
+    margin-top: 3%;
   }
   .footer-wrapper .row .col-sm-3 form button {
     margin: 10px 0 8px;
     font-size: 14px;
   }
   .footer-wrapper .row .col-sm-3 form p {
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 700;
   }
   .footer_menu__links {
     font-size: 14px;
