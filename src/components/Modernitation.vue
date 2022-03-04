@@ -40,7 +40,7 @@
       </div>
       <div class="modernitation__body">
         <div class="row align-items-center justify-content-center">
-          <div class="col-xl-6">
+          <div class="col-lg-6">
             <h5>МОДЕРНИЗАЦИЯ НАЦИОНАЛЬНОЙ ИННОВАЦИОННОЙ СИСТЕМЫ УЗБЕКИСТАНА</h5>
             <p>
               28 октября 2020 года Совет директоров Всемирного банка одобрил
@@ -51,7 +51,7 @@
             </p>
             <button class="btn">Подробнее</button>
           </div>
-          <div class="col-xl-6">
+          <div class="col-lg-6">
             <div class="modern_img__box">
               <img src="./../../public/images/Pacets/modern_place.png" alt="" />
             </div>
