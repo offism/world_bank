@@ -3,8 +3,8 @@
     <div class="container">
       <div class="modernitation__header">
         <div class="row">
-          <div class="col-xl-4 col-sm-6">
-            <div class="modernitation_pacet__img pl-0">
+          <div class="col-xl-4 col-sm-6 text-sm-center">
+            <div class="modernitation_pacet__img pl-0 mx-sm-auto">
               <div class="modernitation_pacet_box__img">
                 <img src="./../../public/images/Pacets/pacet_img3.png" alt="" />
               </div>
@@ -15,8 +15,8 @@
               отвечающих за записи и информацию
             </p>
           </div>
-          <div class="col-xl-4 col-sm-6">
-            <div class="modernitation_pacet__img">
+          <div class="col-xl-4 col-sm-6 text-sm-center">
+            <div class="modernitation_pacet__img mx-sm-auto">
               <div class="modernitation_pacet_box__img">
                 <img src="./../../public/images/Pacets/pacet_img2.png" alt="" />
               </div>
