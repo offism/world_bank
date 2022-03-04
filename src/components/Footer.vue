@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer-wrapper">
         <div class="row">
-          <div class="col-4">
+          <div class="col-sm-4 col-12">
             <img src="./../../public/images/att_img/ii.png" alt="" />
             <p>
               Внимание! Если Вы нашли ошибку в тексте, выделите её и нажмите
@@ -34,7 +34,7 @@
             </ul>
           </div>
 
-          <div class="col-2">
+          <div class="col-sm-2">
             <h5 class="footer_menu__title">Меню</h5>
             <ul class="footer_menu__links">
               <li class="footer_menu__item">
@@ -59,7 +59,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-3">
+          <div class="col-sm-3 d-sm-n">
             <label class="footer_menu__title h5" id="footer__adress"
               >Адрес:</label
             >
@@ -80,7 +80,7 @@
               >munis@mininnovation.uz</small
             >
           </div>
-          <div class="col-3">
+          <div class="col-sm-3 col-12">
             <form class="form-control">
               <input type="text" placeholder="Эл. почта" class="form-control" />
               <button class="btn">Подписаться</button>

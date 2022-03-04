@@ -491,10 +491,10 @@ body {
   background-color: #05278d;
   color: #fff;
 }
-.footer-wrapper .row .col-4 {
+.footer-wrapper .row .col-sm-4 {
   padding: 0 30px;
 }
-.footer-wrapper .row .col-4 img {
+.footer-wrapper .row .col-sm-4 img {
   width: 100%;
 }
 .footer_menu__links {
@@ -548,17 +548,17 @@ body {
 .fmt_top {
   margin-top: 10px;
 }
-.footer-wrapper .row .col-3 form {
+.footer-wrapper .row .col-sm-3 form {
   background: transparent;
   border: none;
   color: #fff;
   margin-top: 34px;
 }
-.footer-wrapper .row .col-3 form input {
+.footer-wrapper .row .col-sm-3 form input {
   background-color: transparent;
   color: #fff;
 }
-.footer-wrapper .row .col-3 form button {
+.footer-wrapper .row .col-sm-3 form button {
   margin: 10px 0 20px;
   width: 100%;
   color: #05278d;
@@ -568,7 +568,7 @@ body {
 ::placeholder {
   color: #fff;
 }
-.footer-wrapper .row .col-3 form button:hover {
+.footer-wrapper .row .col-sm-3 form button:hover {
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;
@@ -938,10 +938,10 @@ body {
   .usage_slider__slide p {
     font-size: 13px;
   }
-  .footer-wrapper .row .col-4 {
+  .footer-wrapper .row .col-sm-4 {
     padding: 12px 0 0;
   }
-  .footer-wrapper .row .col-4 p {
+  .footer-wrapper .row .col-sm-4 p {
     font-size: 12px;
     margin-bottom: 8px;
   }
@@ -959,20 +959,20 @@ body {
     font-size: 14px;
     font-weight: 700;
   }
-  .footer-wrapper .row .col-3 small {
+  .footer-wrapper .row .col-sm-3 small {
     font-size: 8px;
   }
-  .footer-wrapper .row .col-3 form {
+  .footer-wrapper .row .col-sm-3 form {
     padding: 0;
   }
-  .footer-wrapper .row .col-3 form input {
+  .footer-wrapper .row .col-sm-3 form input {
     font-size: 12px;
   }
-  .footer-wrapper .row .col-3 form button {
+  .footer-wrapper .row .col-sm-3 form button {
     margin: 10px 0 8px;
     font-size: 14px;
   }
-  .footer-wrapper .row .col-3 form p {
+  .footer-wrapper .row .col-sm-3 form p {
     font-size: 13px;
   }
   .footer_menu__links {
@@ -982,7 +982,7 @@ body {
     width: 22%;
     font-size: 10px;
   }
-  .footer-wrapper .row .col-3 form button {
+  .footer-wrapper .row .col-sm-3 form button {
     margin: 3px 0 7px;
     font-size: 11px;
     width: 100%;
@@ -1185,7 +1185,7 @@ body {
   .modernitation__header .row .col-4:nth-child(2) {
     padding: 0px 5px;
   }
-  .footer-wrapper .row .col-3 form button {
+  .footer-wrapper .row .col-sm-3 form button {
     width: 100%;
     font-size: 10px;
     margin: 8px 0 0px;
@@ -1211,11 +1211,17 @@ body {
   .footer {
     margin: 40px 0 0;
   }
-  .footer-wrapper .row .col-4 p {
+  .footer-wrapper .row .col-sm-2 {
+    display: none;
+  }
+  .footer-wrapper .row .col-sm-3.d-sm-n {
+    display: none;
+  }
+  .footer-wrapper .row .col-sm-4 p {
     font-size: 11px;
     margin-bottom: 8px;
   }
-  .footer-wrapper .row .col-4 {
+  .footer-wrapper .row .col-sm-4 {
     padding: 0 14px;
   }
   .footer_attention_social__item {
@@ -1230,20 +1236,20 @@ body {
   .footer_menu__link {
     font-size: 10px;
   }
-  .footer-wrapper .row .col-3 small {
+  .footer-wrapper .row .col-sm-3 small {
     font-size: 6px;
   }
-  .footer-wrapper .row .col-3 form input {
+  .footer-wrapper .row .col-sm-3 form input {
     font-size: 12px;
   }
-  .footer-wrapper .row .col-3 form {
+  .footer-wrapper .row .col-sm-3 form {
     padding: 0;
   }
-  .footer-wrapper .row .col-3 form button {
+  .footer-wrapper .row .col-sm-3 form button {
     margin: 10px 0 8px;
     font-size: 14px;
   }
-  .footer-wrapper .row .col-3 form p {
+  .footer-wrapper .row .col-sm-3 form p {
     font-size: 13px;
   }
   .footer_menu__links {
@@ -1253,7 +1259,7 @@ body {
     margin-bottom: 0px;
     font-size: 14px;
   }
-  .footer-wrapper .row .col-3 form button {
+  .footer-wrapper .row .col-sm-3 form button {
     margin: 7px 0 8px;
     font-size: 10px;
   }
