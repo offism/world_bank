@@ -778,6 +778,9 @@ body {
   .news_devices__box .row .col-xl-6 p {
     font-size: 15px;
   }
+  .question_text__box img {
+    width: 100%;
+  }
   .question_text__box .row .col-xl-4 {
     margin-top: 5%;
   }
@@ -1026,7 +1029,7 @@ body {
     right: 10%;
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 80%;
     top: 104%;
     padding: 0;
     position: absolute;
