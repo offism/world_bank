@@ -70,6 +70,10 @@ body {
 }
 #search__input {
   color: #fff;
+  margin: 0;
+}
+#search__input:focus {
+  box-shadow: none;
 }
 .last {
   margin-right: 6px;
@@ -846,6 +850,9 @@ body {
     text-align: center;
   }
 
+  .modernitation__body .row .col-lg-6 button {
+    font-size: 12px;
+  }
   .modernitation__header .row .col-4 h4 {
     font-size: 16px;
     font-weight: 700;
@@ -1104,9 +1111,8 @@ body {
   .modernitation__body .row .col-xl-6 p {
     font-size: 9px;
   }
-  .modernitation__body .row .col-xl-6 button {
+  .modernitation__body .row .col-lg-6 button {
     font-size: 12px;
-    margin: 0px 0;
   }
   .news__section {
     min-height: 40vh;

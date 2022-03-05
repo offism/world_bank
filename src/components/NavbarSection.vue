@@ -20,7 +20,7 @@
             </label>
             <input
               id="search__input"
-              class="form-control me-2"
+              class="form-control"
               type="search"
               placeholder="Поиск по сайту"
               aria-label="Search"
