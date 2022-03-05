@@ -997,7 +997,6 @@ body {
     font-size: 14px;
   }
   .news_devices__box .row .col-xl-6 .row button {
-    width: 22%;
     font-size: 10px;
   }
   .footer-wrapper .row .col-sm-3 form button {
@@ -1063,9 +1062,6 @@ body {
   .dropdown-menu[data-bs-popper] {
     top: 95%;
   }
-  /* .text__part button {
-    width: 22%;
-  } */
   .modernitation__body .row .col-lg-6 {
     margin-bottom: 8%;
   }
@@ -1171,7 +1167,6 @@ body {
   .news_devices__box .row .col-xl-6 .row button {
     margin-right: 1%;
     font-size: 10px;
-    width: 27%;
   }
   .question_text__box img {
     width: 100%;
