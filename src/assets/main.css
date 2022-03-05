@@ -140,6 +140,9 @@ body {
   width: 100%;
   margin-right: 0;
 }
+.mainpage_slide {
+  padding: 0 5px;
+}
 .mainpage_slide p {
   font-size: 16px;
   font-weight: 500;
@@ -149,7 +152,7 @@ body {
   font-weight: 700;
 }
 .mainpage_slide small {
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 500;
 }
 .slick-next {
@@ -165,7 +168,7 @@ body {
   flex-direction: column;
 }
 .text__part button {
-  width: 20%;
+  width: max-content;
   margin: 30px 0;
   display: inline-block;
   background-color: #529dd6;
@@ -200,6 +203,7 @@ body {
   background-color: #529dd6;
   color: #fff;
   transition: 0.3s ease all;
+  width: max-content;
 }
 .modernitation__body .row .col-lg-6 button:hover {
   background-color: #1579c5;
@@ -359,7 +363,7 @@ body {
 }
 .news_devices__box .row .col-xl-6 .row button {
   margin-right: 1%;
-  width: 31%;
+  width: max-content;
 }
 .news_devices_box_row_col {
   display: flex;
@@ -809,7 +813,10 @@ body {
     margin-top: 0.125rem;
   }
   .navbar__section .navbar .container form {
-    width: 60%;
+    width: 50%;
+  }
+  .brand_wrapper {
+    width: 30%;
   }
   .banner_wrapper {
     height: 100vh;
@@ -826,9 +833,9 @@ body {
   .text__part h2 {
     font-size: 20px;
   }
-  .text__part button {
+  /* .text__part button {
     width: 22%;
-  }
+  } */
   .modernitation_pacet__img {
     margin: 5% auto;
   }
@@ -910,6 +917,9 @@ body {
   }
   .question_text__box h3 {
     font-size: 20px;
+  }
+  .question_text__box img {
+    width: 100%;
   }
   .map__wrapper h3 {
     font-weight: 700;
@@ -1028,10 +1038,13 @@ body {
     font-size: 14px;
   }
   .navbar__section .navbar .container form {
-    width: 60%;
+    width: 50%;
   }
   .banner_wrapper {
     height: 100vh;
+  }
+  .brand_wrapper {
+    width: 30%;
   }
   .navbar-nav {
     width: 64%;
@@ -1050,9 +1063,9 @@ body {
   .dropdown-menu[data-bs-popper] {
     top: 95%;
   }
-  .text__part button {
+  /* .text__part button {
     width: 22%;
-  }
+  } */
   .modernitation__body .row .col-lg-6 {
     margin-bottom: 8%;
   }
@@ -1160,6 +1173,9 @@ body {
     font-size: 10px;
     width: 27%;
   }
+  .question_text__box img {
+    width: 100%;
+  }
   .question_text__box h3 {
     font-weight: 700;
     margin-bottom: 27px;
@@ -1236,6 +1252,9 @@ body {
   .footer-wrapper .row .col-sm-4 {
     padding: 0 14px;
     text-align: center;
+  }
+  .footer-wrapper .row .col-sm-3.col-12 {
+    padding: 0 30vw;
   }
   .footer-wrapper ul {
     justify-content: center;

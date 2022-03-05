@@ -13,10 +13,11 @@ $(function() {
 $(function() {
   $('.mainpage_slider').slick({
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 400,
     slidesToShow: 4,
     slidesToScroll: 4,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -48,7 +49,7 @@ $(function() {
   $(function() {
     $('.usage_slider').slick({
       dots: true,
-      infinite: false,
+      infinite: true,
       speed: 300,
       slidesToShow: 4,
       slidesToScroll: 4,
@@ -59,7 +60,7 @@ $(function() {
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true
+            dots: false
           }
         },
         {
