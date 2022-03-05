@@ -1194,7 +1194,7 @@ body {
     padding: 0;
   }
   .news_devices_box_row_col img {
-    width: 80%;
+    width: 100%;
   }
   .modernitation__header .row {
     width: 100%;
@@ -1231,7 +1231,7 @@ body {
     width: 100%;
   }
   .footer {
-    margin: 40px 0 0;
+    margin: 27px 0 0;
   }
   .footer-wrapper .row .col-sm-2 {
     display: none;
@@ -1244,6 +1244,7 @@ body {
   }
   .footer-wrapper .row .col-sm-4 p {
     font-size: 14px;
+    text-align: center;
     margin-bottom: 8px;
     font-weight: 600;
   }
@@ -1252,7 +1253,7 @@ body {
     text-align: center;
   }
   .footer-wrapper .row .col-sm-3.col-12 {
-    padding: 0 30vw;
+    padding: 0 20vw;
   }
   .footer-wrapper ul {
     justify-content: center;
